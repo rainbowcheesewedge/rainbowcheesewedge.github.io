@@ -26,8 +26,11 @@ li{
 hr{
     padding-top:5px;
     background-color:#c9c9c9;
+    
 }
 p ,li ,ul, ol{
     line-height:25px;
+    font-size:16px;
 }
+
 
