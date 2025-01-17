@@ -4,44 +4,45 @@
 
 body {
     margin: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:black;
-    color:#e2dcdc;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: black;
+    color: #e2dcdc;
     
 }
-#twocolumns{
+#twocolumns {
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
-#twocolumns img{
-text-align:right;
+#twocolumns img {
+    text-align: right;
 }
 
-#side-bar-left h2{
-    text-align:center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+#side-bar-left h2 {
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
 }
 
-#side-bar-right{
-    width:35%;
-    padding-left:20px;
+#side-bar-right {
+    width: 35%;
+    padding-left: 20px;
   
 }
-#side-bar-right h3{
-    color:#e2dcdc;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+#side-bar-right h3 {
+    color: #e2dcdc;
+    font-family:'Gill Sans', sans-serif;
 }
 
-hr{
+hr {
     width:500px;
-    padding-top:5px;
-    background-color:rgb(202, 16, 16);
-    margin-top:25px;
+    padding-top: 5px;
+    background-color: rgb(202, 16, 16);
+    margin-top: 25px;
 }
 
-#showcase{
-    text-align:center;
+#showcase {
+    text-align: center;
 }
