@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#hero{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background-color:orange;
+    color:black;
+    flex-direction: column;
+}
