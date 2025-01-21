@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -16,3 +17,10 @@ body {
     color:black;
     flex-direction: column;
 }
+.creepster-regular, 
+h2 {
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+  }
