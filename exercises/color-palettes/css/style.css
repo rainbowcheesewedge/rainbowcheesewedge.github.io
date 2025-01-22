@@ -6,11 +6,12 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#palette-one-heading{
+#palette-one-heading {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
-#palette-one-color{
+#palette-one-color {
     background-color: #160C28;
     color: white;
     padding: 24px;
@@ -18,14 +19,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#palette-one-color-two{
+#palette-one-color-two {
     background-color: #EFCB68;
     color: black;
     padding: 24px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#palette-one-color-three{
+#palette-one-color-three {
     background-color: #E1EFE6;
     color: black;
     padding: 24px;
@@ -33,7 +34,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#palette-one-color-four{
+#palette-one-color-four {
     background-color: #AEB7B3;
     color: black;
     padding: 24px;
@@ -41,7 +42,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#palette-one-color-five{
+#palette-one-color-five {
     background-color: #000411;
     color: white;
     padding: 24px;
@@ -49,15 +50,83 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#palette-two-heading{
+#palette-two-heading {
     text-align: center;
-    font-family:'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
-#palette-two-color{
-    background-color:#44af69;
-    padding:24px;
-    color:black;
-    text-align:center;
-    font-family:'Courier New', Courier, monospace;
+#palette-two-color {
+    background-color: #44af69;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
-
+#palette-two-color-two {
+    background-color: #f8333c;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#palette-two-color-three {
+    background-color: #fcab10;
+    padding: 24px;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#palette-two-color-four {
+    background-color: #2b9eb3;
+    padding: 24px;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#palette-two-color-five {
+    background-color: #dbd5b5;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#palette-three-heading {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#palette-three-color {
+    background-color: #ffdda1;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#palette-three-color-two {
+    background-color: #ffd151;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#palette-three-color-three {
+    background-color: #f8c537;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#palette-three-color-four {
+    background-color: #edb230;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#palette-three-color-five {
+    background-color: #e77728;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
