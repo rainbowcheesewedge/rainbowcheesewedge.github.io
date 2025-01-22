@@ -6,3 +6,8 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+.narrow {
+    width: 200px;
+    background-color: lightsalmon;
+    display: inline-block;
+}
