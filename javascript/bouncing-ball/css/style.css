@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#room{
+    border: 5px solid black;
+    position: relative;
+}
+
+#ball{
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    display:flex;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    position: realtive;
+}
