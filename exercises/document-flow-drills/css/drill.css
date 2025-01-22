@@ -14,9 +14,15 @@
 }
 
 /* Drill 4 - Write your code solution below */
-
+.d4-div {
+    display: inline-block;
+}
 
 /* Drill 5 - Write your code solution below */
 
-
+.d5-div{
+    display:inline-block;
+    width:240px
+    
+}
 /* Drill 6 - Write your code solution below */
