@@ -28,7 +28,7 @@ function formatCountdownText(days, hours, minutes, seconds) {
   let countdown = document.getElementById("countdown");
   countdown.innerHTML = "";
 
-  function setCountdown(){
+  function setCountdown() {
     let now = new Date();
     let timeLeft = deadline.getTime() - now.getTime();
 
@@ -38,7 +38,7 @@ function formatCountdownText(days, hours, minutes, seconds) {
     let secondsLeft = convertToSecondsLeft(timeLeft);
 
     countdown.innerHTML =
-      formatCountdownText(daysLeft, hoursLeft, minutesLeft. secondsLeft);
+      formatCountdownText(daysLeft, hoursLeft, minutesLeft, secondsLeft);
   }
 
 setInterval(setCountdown, 1000);
