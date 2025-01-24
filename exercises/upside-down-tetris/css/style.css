@@ -10,11 +10,8 @@
     border-width: 12px;
     border-style: outset;
     padding: 20px;
-    display: inline-block;
-
-    
+    display: inline-block;   
 }
-
 .red {
     background-color: red;
     border-color: crimson;
@@ -28,15 +25,12 @@
 .black {
     background-color: black;
     border-color: black;
-
 }
-
 .yellow {
     background-color: yellow;
     border-color: gold;
     border-radius: 50%;
 }
-
 .green {
     background-color: green;
     border-color: greenyellow;
