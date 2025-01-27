@@ -6,37 +6,56 @@
 
     Good luck, and have fun!
 */
-.display-space {
-    margin-top: 30px;
-}
-.container-one {
+
+#container-one {
     background-color: black;
     color: white;
-    border: 5px solid white; 
-    height:112px;
-  
+    border: 6px ridge brown; 
+    height: 112px;
 }
-.container-two {
+
+#container-one img {
+    width: 75px;
+}
+#container-two {
     width: 50px;
-    height: 97px;
     background-color: black;
     color: white;
-    padding: 0px 10px 20px 10px;
-    border: 5px solid white;
-    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border: 6px ridge brown;
+    text-align: center;   
+}
+#container-two p {
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#container-two h2 {
+    font-size: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+#container-two img {
+    width: 40px;
+}
+#container-three {
+    border: 6px ridge brown;
+    width: 150px;
+    background-color: black;
+    height: 85px; 
     
 }
-.container-two p {
-    font-size: 5px;
+#container-three img {
+    width: 150px;
+}
+#container-one,
+#container-two,
+#container-three,
+#container-four{
+    margin: 0px 20px 20px 20px;
+    box-shadow: -6px -4px 4px rgba(68, 67, 67, 0.395);
+    padding:10px;
+   
+}
+.display-space {
+    align-content: center;
 }
 
-.container-two h2 {
-    font-size: 8px;
-}
-
-.container-three {
-    border: 5px solid white;
-    width: 200px;
-    background-color: black;
-    height: 113px;
-}
