@@ -1,0 +1,42 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.display-space {
+    margin-top: 30px;
+}
+.container-one {
+    background-color: black;
+    color: white;
+    border: 5px solid white; 
+    height:112px;
+  
+}
+.container-two {
+    width: 50px;
+    height: 97px;
+    background-color: black;
+    color: white;
+    padding: 0px 10px 20px 10px;
+    border: 5px solid white;
+    text-align: center;
+    
+}
+.container-two p {
+    font-size: 5px;
+}
+
+.container-two h2 {
+    font-size: 8px;
+}
+
+.container-three {
+    border: 5px solid white;
+    width: 200px;
+    background-color: black;
+    height: 113px;
+}
