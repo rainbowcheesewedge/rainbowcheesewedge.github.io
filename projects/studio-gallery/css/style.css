@@ -48,12 +48,10 @@
 }
 #container-one,
 #container-two,
-#container-three,
-#container-four{
+#container-three {
     margin: 0px 20px 20px 20px;
     box-shadow: -6px -4px 4px rgba(68, 67, 67, 0.395);
     padding:10px;
-   
 }
 .display-space {
     align-content: center;
