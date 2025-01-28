@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color:rgb(198, 198, 198);
+}
+
+#navbar {
+    background: linear-gradient(to bottom, gray, #151a15);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding:20px 35px;
+    font-size:35px;
+    font-weight:bold;
+    font-family: "New Rocker", serif;
+}
+
+#navbar a:hover {
+    color:red;
+}
+
+#navbar img{
+    width:150px;
+    margin-right:30px;
+}
+#container{
+    margin: 0 auto;
+    text-align:center;
+    width: 100%;
+ 
+}
+#recentwork{
+    display:flex;
+    flex-direction: column;
+}
+
+#recentwork img {
+    padding-top:20px;
+}
+
+#recentwork a{
+    color:black;
+    text-decoration: underline;
+    padding:20px 35px;
+    font-size:25px;
+    font-weight:bold;
+    font-family: "New Rocker", serif;
+
+}
+
+#recentwork a:hover{
+    color:red;
+}
