@@ -1,0 +1,158 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.pin {
+    border-radius: 50%;
+    background-color: crimson;
+    width: 15px;
+    height: 15px;
+    box-shadow: -1px -1px 4px #00000063;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#stickynote1 {
+    background-color:aqua;
+    width: 200px;
+    height: 200px;
+    display: block;
+    box-shadow: -6px -6px 4px #00000063;
+    margin: 24px 50px; 
+    padding: 24px;
+}
+#stickynote1 h2,
+#stickynote3 h2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+#stickynote1 li,
+#stickynote3 li {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    margin-bottom: 5px;
+}
+
+#stickynote2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px;
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+    text-align: center;
+    transform: rotate(15deg);
+}
+
+#stickynote2 h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+#stickynote3 {
+    background-color: rgba(185, 75, 236, 0.962);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+}
+
+#stickynote4 img,
+#stickynote6 img,
+#stickynote9 img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+#stickynote4 {
+    background-color: rgba(251, 251, 251, 0.962);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+    transform: rotate(-15deg);
+}
+
+#stickynote5 {
+    background-color: rgba(165, 77, 86, 0.962);
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+    text-align: center;
+}
+
+#stickynote5 h2 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#stickynote6 {
+    background-color: rgba(251, 251, 251, 0.962);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+    transform: rotate(5deg);
+}
+#stickynote7 {
+    background-color: rgba(68, 206, 80, 0.962);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+}
+#stickynote7 h2,
+#stickynote7 p,
+#stickynote8 h2 {
+    text-align: center;
+}
+
+#stickynote8 {
+    background-color: rgba(243, 137, 32, 0.962);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+}
+
+#stickynote9 {
+    background-color: rgba(251, 251, 251, 0.962);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 24px 50px; 
+    padding: 24px;
+    box-shadow: -6px -6px 4px #00000063;
+    transform: rotate(-5deg);
+}
+
+#stickynote9 img {
+    height: 120px;
+}
