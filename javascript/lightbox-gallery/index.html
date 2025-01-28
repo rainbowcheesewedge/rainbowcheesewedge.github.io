@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Assignment 23 - Lightbox Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+  </head>
+  <body>
+    <!-- Gallery Code -->
+    <div id="gallery">
+      <img class="galleryImage" src="images/POSTCARD1.jpg" alt="postcard">
+      <img class="galleryImage" src="images/postcard2.jpg" alt="postcard">
+      <img class="galleryImage" src="images/postcard3.jpg" alt="postcard">
+      <img class="galleryImage" src="images/postcard4.jpg" alt="postcard">
+      <img class="galleryImage" src="images/postcard5.jpg" alt="postcard">
+      <img class="galleryImage" src="images/farmermarkets.jpg" alt="poster">
+      <img class="galleryImage" src="images/natureposter.jpg" alt="poster">
+      <img class="galleryImage" src="images/customlogo.png" alt="logo">
+    </div>
+
+    <!-- Lightbox Code -->
+    <div id="lightboxContainer">
+      <div id="lightboxBackground" class="closer"></div>
+      <img id="lightbox" src="" alt="">
+      <span id="lightboxCloser" class="closer">×</span>
+    </div>
+
+    <!-- Lightbox JavaScript -->
+    <script type="text/javascript">
+      let lightbocContainer = document.getElementById('lightboxContainer');
+      let lightbox = document.getElementById('lightbox');
+      let galleryImages = document.getElementsByClassName('galleryImage');
+      for (let i = 0; i < galleryImages.length; i++){
+        let galleryImage = galleryImages[i];
+        galleryImage.onclick = function(){
+          lightboxContainer.ClassList.add('display');
+          lightbox.src = this.src;
+          lightbox.alit = this.alt;
+        }
+      }
+    </script>
+  </body>
+</html>
