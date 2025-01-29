@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#black-container {
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-family: "Archivo Black", serif;
+    font-style: normal;
+    padding: 48px 0px;
+}
+
+.single-column {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.single-column img {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+#black-container h1 {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#black-container h2,
+#black-container p,
+#black-container h4,
+#grey-container h2,
+#grey-container p,
+#grey-container h4 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#grey-container {
+    background-color: rgb(154, 152, 152);
+    color: black;
+    font-family: "Archivo Black", serif;
+    margin: 0 auto;
+    padding: 48px 0px;
+}
+
+#red-container {
+    background-color: rgb(75, 32, 32);
+    color: white;
+    font-family: "Archivo Black", serif;
+    margin: 0 auto;
+    padding: 48px 0px;
+}
