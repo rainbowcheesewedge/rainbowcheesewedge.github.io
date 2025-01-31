@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: linear-gradient(65deg, rgba(255,0,0,0), rgb(0, 0, 0));
+    padding: 0; 
+  
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 800px 250px 1fr;
+    grid-template-areas: ". area-1 area-2 gutter-2 .";
+    justify-content: center;
+    margin: 36px 0px;
+}
+
+#sidebar-content {
+    grid-area: area-2;
+    padding: 18px;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 12px 12px;
+    background-color: #ffffff;
+    margin: 0px 0px 36px;
+    border: 1px solid black;
+}
+
+#sidebar-content ul a {
+    text-decoration: none;
+    color: rgb(208, 141, 25);
+}
+
+#sidebar-content ul a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#sidebar-content ul li {
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#sidebar-content h2 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main-content {
+    grid-area: area-1;
+    padding: 20px;
+    margin: 0px 36px;
+    background-color: white;
+}
+#main-content h1,
+#main-content h3 {
+    border-bottom: 1px solid #111111;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#main-content h2 {
+    font-style: italic;
+    border-bottom: 1px solid #111111;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    
+}
+
+#main-content h3 {
+    padding-top: 10px;
+    color: rgb(208, 141, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#main-content p {
+    line-height: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+#main-content h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
