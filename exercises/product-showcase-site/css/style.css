@@ -59,11 +59,11 @@ body {
     margin: 0 auto;
     padding: 48px 0px;
 }
-button{
-    padding:15px;
+button {
+    padding: 15px;
     border-radius: 25px;
-    background-color:blueviolet;
-    color:white;
-    font-weight:bold;
-    font-size:18px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
