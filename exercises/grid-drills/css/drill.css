@@ -17,72 +17,72 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "area-1 area-2 area-3"
 }
-#d3-cell1{
+#d3-cell1 {
     grid-area: area-1;
 }
-#d3-cell2{
+#d3-cell2 {
     grid-area: area-2;
 }
-#d3-cell3{
+#d3-cell3 {
     grid-area: area-3;
 }
 /* Drill 4 - Write your code solution below */
-#container-d4{
+#container-d4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "area-2 area-3 area-1";
 }
 
-#d4-cell2{
+#d4-cell2 {
     grid-area: area-2;
 }
 
-#d4-cell3{
+#d4-cell3 {
     grid-area: area-3;
 }
 
-#d4-cell1{
+#d4-cell1 {
     grid-area: area-1;
 }
 
 /* Drill 5 - Write your code solution below */
-#container-d5{
+#container-d5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:"header header header" 
+    grid-template-areas: "header header header" 
                         "sidebar content content";
 }
 
-#d5-cell1{
-    grid-area:header;
+#d5-cell1 {
+    grid-area: header;
 }
-#d5-cell2{
+#d5-cell2 {
     grid-area: content;
 }
 
-#d5-cell3{
-    grid-area:sidebar;
+#d5-cell3 {
+    grid-area: sidebar;
 }
 
 
 
 /* Drill 6 - Write your code solution below */
 
-#container-d6{
-    display:grid;
+#container-d6 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:"content-1 content-2" 
+    grid-template-areas: "content-1 content-2" 
                         "content-3 content-3";
 
 }
 
-#d6-cell1{
+#d6-cell1 {
     grid-area: content-1;
 }
 
-#d6-cell2{
+#d6-cell2 {
     grid-area: content-2;
 }
-#d6-cell3{
-    grid-area:content-3;
+#d6-cell3 {
+    grid-area: content-3;
 }
