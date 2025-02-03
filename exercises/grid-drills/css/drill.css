@@ -48,7 +48,7 @@
 /* Drill 5 - Write your code solution below */
 #container-d5{
     display: grid;
-    grid-template-columns: 4fr 1fr 6fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:"header header header" 
                         "sidebar content content";
 }
