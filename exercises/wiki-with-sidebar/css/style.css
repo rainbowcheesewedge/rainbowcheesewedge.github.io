@@ -7,10 +7,10 @@ body {
 }
 #two-columns {
     display: flex;
-    margin: 0 auto;
+    margin: 0px;
 }
 #sidebar-content {
-    width: 250px;
+    width: 350px;
     padding: 48px;
     
 }
@@ -37,8 +37,7 @@ body {
 }
 #main-content {
     padding: 48px;
-    flex: 1;
-    width: 40%;
+    width: 650px;
     line-height: 22px;
 }
 #mini-nav-bar {
@@ -71,34 +70,4 @@ body {
     font-size: 14px;
     font-style: italic;
     margin-left: 20px;
-}
-#pokemon {
-    border: 1px solid #111111;
-    background-color: rgb(239, 239, 246);
-    text-align: center;
-    padding: 48px;
-}
-#pokemon img {
-    width: 250px;
-}
-
-#pokemon h3 {
-    font-style: italic;
-    font-size: 30px;
-    background-color: rgb(194, 174, 213);
-    padding: 10px;
-}
-
-#side-by-side-content {
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 350px;  
-    align-content: center;
-}
-
-#side-by-side-content h4 {
-    font-size: 18px;
-   
 }
