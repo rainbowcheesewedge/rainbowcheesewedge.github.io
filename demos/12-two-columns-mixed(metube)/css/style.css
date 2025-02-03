@@ -18,6 +18,7 @@ body {
 #header {
     grid-area: header;
     padding: 0px 36px;
+
 }
 
 #sidebar {

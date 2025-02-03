@@ -19,6 +19,8 @@ body {
 #header {
     grid-area: header;
     padding: 0px 36px;
+    display: flex;
+    flex-direction: row;
 }
 
 #sidebar {
@@ -75,8 +77,17 @@ body {
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, rgb(223, 8, 8), rgb(108, 48, 120));
+}
+
+.thumbnail-placeholder img {
+    width: 300px;
     border-radius: 8px;
+    height:225px;
+}
+
+.thumbnail-placeholder img:hover{
+    color:#111111;
+    opacity: .5;
 }
 
 .metube-item h4 {
@@ -101,4 +112,36 @@ body {
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+#search-bar{
+    margin: 0 auto;
+    align-content: center;
+}
+
+#search-bar input[type=text]{
+    background-color: #151414;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 50px;
+    color:white;
+    width:550px;
+    font-size:18px;
+}
+
+#login {
+    display: flex; 
+    color:white;
+}
+#login h3 {
+    margin: 10px 10px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 20px;
+    margin: 8px 8px;
+    padding-top: 20px;
+
 }
