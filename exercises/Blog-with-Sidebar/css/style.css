@@ -21,7 +21,11 @@ body {
     grid-area: area-2;
     padding: 18px;
 }
-
+#sticky{
+    position: sticky;
+    top:24px;
+    right:25px;
+}
 #sidebar-content ul {
     list-style-type: none;
     padding: 12px 12px;
