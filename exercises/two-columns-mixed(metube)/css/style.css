@@ -4,8 +4,10 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
-    background-color: #111111;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: 
+        radial-gradient(at bottom left, rgb(11, 11, 11), rgb(65, 29, 29));
+    
 }
 
 #grid-layout {
@@ -53,10 +55,8 @@ body {
     padding: 12px 0px;
     margin: 0px;
     list-style-type: none;
-    border-bottom: 1px solid #AAAAAA
+    border-bottom: 1px solid #AAAAAA;
 }
-
-
 #sidebar ul a {
     text-decoration: none;
     color: white;
@@ -75,23 +75,26 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    aspect-ratio: 16 / 9;
+.thumbnail-placeholder {
+    text-align: center;
 }
 
 .thumbnail-placeholder img {
     width: 300px;
     border-radius: 8px;
-    height:225px;
+    height: 225px;
+    box-shadow: 0px 0px 16px 4px rgb(147, 12, 12); 
+
 }
 
-.thumbnail-placeholder img:hover{
-    color:#111111;
+.thumbnail-placeholder img:hover {
+    color: #111111;
     opacity: .5;
 }
 
 .metube-item h4 {
-    margin: 8px;
+    text-align: center;
+    margin: 10px 2px;  
 }
 
 .metube-item h4 a {
@@ -108,29 +111,51 @@ body {
     margin: 8px;
     font-size: 14px;
     color: white;
+    
 }
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+    
 }
-#search-bar{
-    margin: 0 auto;
-    align-content: center;
+.video-details img {
+    width: 55px;
+    border-radius: 50px;
+}
+.video-details {
+    text-align: center;
 }
 
-#search-bar input[type=text]{
+.video-channel {
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.views-and-post {
+    padding-top: 5px;
+}
+
+#search-bar {
+    margin: 0 auto;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+#search-bar input[type=text] {
     background-color: #151414;
     height: 35px;
     padding-left: 10px;
     border-radius: 50px;
-    color:white;
-    width:550px;
-    font-size:18px;
+    color: white;
+    width: 550px;
+    font-size: 18px;
+   
 }
 
 #login {
     display: flex; 
-    color:white;
+    color: white;
 }
 #login h3 {
     margin: 10px 10px;
@@ -138,10 +163,9 @@ body {
     font-size: 14px;
 }
 
-.fa-solid{
+.fa-solid {
     color: white;
     font-size: 20px;
     margin: 8px 8px;
     padding-top: 20px;
-
 }
