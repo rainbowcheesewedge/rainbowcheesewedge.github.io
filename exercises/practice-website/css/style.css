@@ -99,3 +99,48 @@ text-align: right;
     padding-top: 25px;
     padding-left: 50px;
 }
+
+#work-text{
+    text-align: center;
+    padding: 35px;
+    background-color: rgb(29, 28, 28);
+    width: 500px;
+    margin: 0 auto;
+    color:#ffffff;
+}
+
+#work-text h3{
+    font-size: 25px;
+    padding:10px;
+    background-color:red;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 35px;
+    color: white;
+   
+}
+
+#work-text h4 {
+    font-size: 20px;
+}
+
+#work-text p{
+    margin: 25px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    gap: 20px;
+}
+
+.grid-gallery img {
+    width: 100%;
+}
