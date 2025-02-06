@@ -8,7 +8,7 @@
     of the setup.css styling if you do so.
 */
 
-.card-style-1{
+.card-style-1 {
     max-width: 350px;
     min-width: 300px;
     background-color: rgb(230, 252, 237);
@@ -45,6 +45,5 @@
 .card-style-1 a:hover {
     background-color: transparent;
     color: black;
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
