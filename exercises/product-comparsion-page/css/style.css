@@ -12,39 +12,44 @@ body {
     padding: 24px;
 }
 
-.left-side{
+.single-column{
     display: flex;
 }
 
 .image-container {
     flex: 1;
+    text-align: right;
 }
 
 .text-container {
     flex: 1;
     padding: 20px;
+    justify-content: center;
+    align-content: center;
 }
 
 .image-container img{
-    width: 30%;
+    width: 70%;
 }
 
 .text-container h3{
     font-size: 25px;
+    width: 400px;
+    padding-bottom: 25px;
 }
 
 .text-container a{
-    font-size:20px;
+    font-size:18px;
     background-color:gold;
-    padding:20px;
+    padding:18px;
     border-radius: 20px;
-    color: rgb(225, 25, 25);
+    color: rgb(24, 24, 23);
     text-decoration: none;
     font-weight: bold;
 }
 
 .text-container a:hover{
-    color:black;
+    color:rgb(190, 14, 32);
     text-decoration: underline;
 
 }
