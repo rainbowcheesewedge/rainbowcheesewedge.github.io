@@ -53,3 +53,38 @@ body {
     text-decoration: underline;
 
 }
+#facts {
+    border-bottom: 5px solid black;
+}
+
+#facts-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "calories package package"
+                         "food amount dv"
+                         "total number percentage";
+
+}
+#calories {
+    grid-area: calories;
+}
+
+#package {
+    grid-area: package;
+    border-left:2px solid black;
+    padding-left:20px;
+}
+
+.line{
+    border-bottom: 2px solid black;
+    width:100%;
+}
+
+#food {
+    grid-area: food;
+}
+#amount {
+    grid-area: amount;
+    border-left:2px solid black;
+    padding-left:20px;
+}

@@ -39,8 +39,8 @@
     text-align: center;
     border: 3px solid  rgb(3, 142, 3);
     transition:
-    background-color .7s,
-    color .7s;
+        background-color .7s,
+        color .7s;
 }
 .card-style-1 a:hover {
     background-color: transparent;
@@ -50,5 +50,5 @@
 #trek-card-4 h2,
 #trek-card-3 h2 {
     text-align: left;
-    padding-left:20px;
+    padding-left: 20px;
 }
