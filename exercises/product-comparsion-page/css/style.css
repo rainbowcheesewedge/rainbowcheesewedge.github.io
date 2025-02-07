@@ -13,28 +13,32 @@ body {
 }
 
 .single-column{
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.side-by-side {
     display: flex;
+    align-items: center;
+    margin: 48px 24px;
 }
 
 .image-container {
     flex: 1;
-    text-align: right;
 }
 
 .text-container {
     flex: 1;
-    padding: 20px;
-    justify-content: center;
-    align-content: center;
+   padding: 36px;
 }
 
 .image-container img{
-    width: 70%;
+    width: 100%;
 }
 
 .text-container h3{
     font-size: 25px;
-    width: 400px;
     padding-bottom: 25px;
 }
 
@@ -46,6 +50,7 @@ body {
     color: rgb(24, 24, 23);
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
 }
 
 .text-container a:hover{
