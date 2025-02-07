@@ -73,13 +73,10 @@
 }
 .description {
     margin: 10px;
-    flex: 3;
+    flex: 1;
     border-bottom: 2px solid #111111;
     padding-bottom: 25px;
     padding-top: 25px;
-}
-.energy {
-    flex: 1;
 }
 
 .fa-leaf {
@@ -93,7 +90,6 @@
     color: blue;
 }
 .power {
-    flex: 1;
     font-weight: bold;
     font-size: 25px;
 }
