@@ -53,38 +53,66 @@ body {
     text-decoration: underline;
 
 }
-#facts {
-    border-bottom: 5px solid black;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    margin: 25px; 
 }
 
-#facts-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "calories package package"
-                         "food amount dv"
-                         "total number percentage";
+#cheerios {
+    background-color:goldenrod;
+    border: 2px solid black;
+    width:300px;
+    border-radius: 25px;
 
 }
-#calories {
-    grid-area: calories;
+
+#applejacks{
+    background-color: red;
+    border: 2px solid black;
+    width:300px;
+    border-radius: 25px;
+
+}
+#cap-n-crunch{
+    background-color: rgb(198, 201, 11);
+    border: 2px solid black;
+    width:300px;
+    border-radius: 25px;
+   
 }
 
-#package {
-    grid-area: package;
-    border-left:2px solid black;
-    padding-left:20px;
+#cereal-grid{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+
+
+
+}
+#facts{
+    text-align: center;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.line{
-    border-bottom: 2px solid black;
-    width:100%;
+.card h4{
+    font-size: 25px;
+    border-bottom: 4px solid #111111;
+    padding-bottom: 25px;
+    background-color: rgb(78, 74, 74);
+    color: white;
+    padding-top: 25px;
+    border-top: 4px solid #111111;
 }
 
-#food {
-    grid-area: food;
+.card p{
+    border-bottom: 2px solid #111111;
+    padding-bottom:10px;
 }
-#amount {
-    grid-area: amount;
-    border-left:2px solid black;
-    padding-left:20px;
+
+.card p:last-child{
+    border-bottom:none;
 }
