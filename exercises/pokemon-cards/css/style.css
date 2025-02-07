@@ -1,0 +1,110 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    width: 400px;
+    border: 20px solid gold;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px;
+}
+
+#pokemon-card-1,
+#pokemon-card-2 {
+    background: 
+        radial-gradient(at top left, rgb(115, 209, 94), rgb(12, 115, 37));
+}
+
+#pokemon-card-3 {
+    background: 
+        radial-gradient(at top left, rgb(201, 69, 17), rgb(228, 113, 13));
+}
+
+#pokemon-card-4 {
+    background: 
+        radial-gradient(at top left, rgb(73, 177, 218), rgb(15, 116, 223));
+}
+
+#pokemon-card-5 {
+    background: 
+        radial-gradient(at top left, rgb(172, 172, 172), rgb(73, 74, 74));
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+}
+.pokemon-header h2 {
+    margin: 0px;
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 5px solid gold;
+}
+
+.health {
+    align-content: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.details {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    background: radial-gradient(at top left, gold, goldenrod);
+    margin: 2px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.attack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.description {
+    margin: 10px;
+    flex: 3;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.energy {
+    flex: 1;
+}
+
+.fa-leaf {
+    color: green;
+}
+.fa-fire {
+    color: red;
+}
+
+.fa-droplet {
+    color: blue;
+}
+.power {
+    flex: 1;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.data {
+    padding: 10px;
+    border: 2px solid gold;
+    font-weight: bold;
+    font-size: 13px;
+}
