@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background-color: goldenrod;
+    padding: 48px;
+}
+.comparison-chart {
+    text-align: center;
+    background-color: rgba(231, 233, 178, 0.374);
+    padding: 24px;
+}
+
+.comparison-chart h3 {
+    font-size: 48px;
+}
+.comparison-row {
+    display: flex;
+    border-bottom: 3px solid #000000;
+    color: #000000;
+}
+
+.comparison-row.comparison-header {
+    font-weight: bold;
+}
+
+.comparison-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .image-container img{
+    width: 100%;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.text-container h3{
+    font-size: 36px;
+}
+
+.text-container a{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: black;
+    padding: 24px;
+    border-radius: 24px;
+}
+.text-container a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    transition: .7s;
+    background-color: gold;
+}
