@@ -5,12 +5,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/lawrence-kayku-frWOcVisp8U-unsplash.jpg);
+    background-image: url("../images/lawrence-kayku-frWOcVisp8U-unsplash.jpg");
     background-size:cover;
     background-attachment: fixed;
 }
 #hero-1 {
-    background-image: url(../images/nitty-ditty-_YCUANSCaO4-unsplash.jpg);
+    background-image: url("../images/nitty-ditty-_YCUANSCaO4-unsplash.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -31,7 +31,7 @@ body {
 }
 
 #hero-2{
-    background-image:url(../images/jelle-taman-JMAuHNmfp3Q-unsplash.jpg);
+    background-image:url("../images/jelle-taman-JMAuHNmfp3Q-unsplash.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -71,7 +71,7 @@ body {
     bottom: 41%;
 }
 #hero-3{
-    background-image: url(../images/david-clode-txV6oyMwiaw-unsplash.jpg);
+    background-image: url("../images/david-clode-txV6oyMwiaw-unsplash.jpg");
     height: 100vh;
     background-size:cover;
     background-position: center center;
@@ -105,7 +105,7 @@ body {
 }
 
 #hero-4 {
-    background-image: url(../images/peter-scholten-9MhwXl_PUSY-unsplash.jpg);
+    background-image: url("../images/peter-scholten-9MhwXl_PUSY-unsplash.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -142,20 +142,26 @@ body {
 .parallax-banner {
     height: 50vh;
     margin: 100px 0px;
-    background-image: url(../images/lawrence-kayku-frWOcVisp8U-unsplash.jpg);
+    background-image: url("../images/lawrence-kayku-frWOcVisp8U-unsplash.jpg");
     background-size:cover;
     background-attachment: fixed;
 }
-#rotation{
+#rotation,
+#egg-2{
     overflow: hidden;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
     transition-property: transform;
 }
-#rotation img{
-    width: 40%;
+#rotation img {
+    width: 20%;
 }
 
-#rotation:hover{
+#egg-2 img{
+    width: 200px;
+}
+
+#rotation:hover,
+#egg-2:hover{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
 }
@@ -183,4 +189,31 @@ body {
 }
 #rotation-2 img{
     width: 100%;
+}
+
+#egg {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin: 100px;
+    top: 10%;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    }
+}
+
+#egg img{
+    width: 5%;
 }
