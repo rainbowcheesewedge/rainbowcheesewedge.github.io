@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/deer.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 2px black;
+}
+.hero-content h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hero-content a {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #3eb856;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 24px;
+    border-radius: 35px;
+}
+
+.hero-content a:hover {
+    transition: .5s;
+    background-color: #216b30;
+}
+
+#hero-2 {
+    background-image: url("../images/polarbear.jpg");
+    height: 120vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.hero2-content {
+    position: absolute;
+    right: 5%;
+    bottom: 55%;
+}
+
+.hero2-content h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.hero2-content h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.hero2-content a {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #1b118b;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    border-radius: 35px;
+    margin-top: 25px;
+}
+
+.hero2-content a:hover {
+    transition: .5s;
+    background-color: #20a3ba;
+}
+
+#hero-3 {
+    background-image: url("../images/elephant.jpg");
+    height: 120vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.hero3-content {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.hero3-content h1 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero3-content h3 {
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    text-shadow: 1px 1px 1px black;
+}
+.hero3-content a {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #6a5509;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    border-radius: 35px;
+    margin-top: 25px;
+}
+
+.hero3-content a:hover {
+    transition: .5s;
+    background-color: #d9b970;
+}
