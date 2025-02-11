@@ -92,7 +92,7 @@ body {
     border: 2px solid #333333;
 }
 
-.horizontal-masonry-gallery {
+.horizontal-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -101,7 +101,7 @@ body {
     border: 6px solid #333333;
 }
 
-.horizontal-masonry-gallery img {
+.horizontal-gallery img {
     height: 250px;
     flex: 1;
     object-fit: cover;
