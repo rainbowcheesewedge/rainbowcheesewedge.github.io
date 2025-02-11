@@ -4,40 +4,84 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero-1 {
+    background-image: url("../images/zebra2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
 }
 
+.hero-content {
+position: absolute;
+top: 50%;
+left:10%;
+}
+
+.hero-content h1{
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+.hero-content a {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #735009;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 24px;
+    border-radius: 35px;
+}
+
+.hero-content a:hover {
+    transition: .5s;
+    background-color: #c0bb1d;
+    color: black;
+}
+
+#singlecolumn{
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    background-image: url("../images/tree2.jpg");
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
 #layout {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
 }
+
+#layout h1{
+    font-family: cursive;
+    font-size: 46px;
+    color: rgb(255, 254, 254); 
+    text-shadow: 2px 2px 2px black;
+}
 .image-gallery {
     columns: 3 auto;
     column-gap: 24px;
-    border: 10px solid #333333;
+    border: 6px solid #333333;
     padding: 24px;
     margin-bottom: 100px;
+    background-color: white;
 
 }
 
 .image-gallery img{
     width: 100%;
     margin-bottom: 24px;
+    border: 2px solid #333333;
 }
 
-.flexbox-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    border: 10px solid #333333;
-    padding: 24px;
-
-}
-
-.flexbox-gallery img {
-    height: 200px;
-    flex: 1;
-    object-fit: cover;
-    
-}
