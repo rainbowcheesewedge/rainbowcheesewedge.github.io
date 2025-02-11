@@ -7,6 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #hero-1 {
+    width:100%;
     background-image: url("../images/zebra2.jpg");
     height: 100vh;
     background-size: cover;
@@ -19,12 +20,12 @@ body {
 }
 
 .hero-content {
-position: absolute;
-top: 50%;
-left:10%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 65px;
     margin-bottom: 0px;
 }
@@ -48,7 +49,7 @@ left:10%;
     color: black;
 }
 
-#singlecolumn{
+#singlecolumn {
     display: flex;
     margin-right: 0;
     margin-left: 0;
@@ -63,7 +64,7 @@ left:10%;
     text-align: center;
 }
 
-#layout h1{
+#layout h1 {
     font-family: cursive;
     font-size: 46px;
     color: rgb(255, 254, 254); 
@@ -79,9 +80,8 @@ left:10%;
 
 }
 
-.image-gallery img{
+.image-gallery img {
     width: 100%;
     margin-bottom: 24px;
     border: 2px solid #333333;
 }
-
