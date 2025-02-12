@@ -83,6 +83,7 @@ body {
     color: white;
     text-align: center;
     font-family: "Open Sans", serif;
+    padding-left: 20px;
 }
 
 .hero2-content h1 {
@@ -120,11 +121,12 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 #gallery h2 {
     font-family: "Open Sans", serif;
-    font-size: 25px;
+    font-size: 30px;
     padding: 25px 0px;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -138,9 +140,8 @@ body {
     padding-bottom: 100px;
 }
 .masonry-gallery {
-    columns: 2 auto;
+    columns: 2 auto ;
     column-gap: 5px;
-    row-gap: 20px;
     background-color: #111111;
     padding: 25px;
    
