@@ -168,11 +168,11 @@ body {
 
 .card {
     flex: 1;
-    border: 3px solid #111111;
+    border: 3px solid #222222;
     padding: 38px;
     text-align: center;
     margin: 38px;
-    background-color: #111111;
+    background-color: #222222;
     box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
   
 }
