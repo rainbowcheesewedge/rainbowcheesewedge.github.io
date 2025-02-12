@@ -173,6 +173,7 @@ body {
     text-align: center;
     margin: 38px;
     background-color: #111111;
+    box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
   
 }
 
