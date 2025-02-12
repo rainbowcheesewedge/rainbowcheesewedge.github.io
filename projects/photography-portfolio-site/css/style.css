@@ -56,12 +56,13 @@ body {
     right: 15%;
     bottom: 40%;
     color: white;
+    text-align: right;
 }
 
 .hero-content h1 {
     font-size: 75px;
     font-family: "Open Sans", serif;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-shadow: 2px 2px 2px black;
 }
 
