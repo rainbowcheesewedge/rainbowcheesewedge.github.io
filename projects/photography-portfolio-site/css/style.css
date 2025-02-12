@@ -7,10 +7,10 @@ body {
     font-family: sans-serif;
 }
 
-#navbar{
+#navbar {
     display: flex;
     justify-content: center;
-    background-color:#111111;
+    background-color: #111111;
     padding: 10px;
 }
 
@@ -24,11 +24,11 @@ body {
 }
 
 #navbar a:hover {
-    color:blanchedalmond;
+    color: blanchedalmond;
     text-decoration: underline;
 }
 
-#hero-parallax{
+#hero-parallax {
     background-image: url("../images/urban-hi-res-2nse.jpg");
     height: 80vh;
     background-size: cover;
@@ -38,14 +38,15 @@ body {
     display: flex;
 }
 
-#hero2-parallax{
+#hero2-parallax {
     background-image: url("../images/urban-hi-res-1ui7.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
@@ -55,61 +56,59 @@ body {
     color: white;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 75px;
     font-family: "Open Sans", serif;
     margin-bottom: 15px;
 }
 
-.hero-content a{
+.hero-content a {
     font-family: "Expletus Sans", serif;
     font-weight: bold;
-    color:black;
+    color: black;
     text-decoration: none;
-    background-color:rgb(255, 255, 255);
-    padding:14px;
+    background-color: rgb(255, 255, 255);
+    padding: 14px;
     font-size: 20px;
     
 }
 
-.hero-content a:hover{
+.hero-content a:hover {
     transition: 1s;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
 }
 
-.hero2-content{
-    position:absolute;
-    left: 20%;
-    bottom: 30%;
+.hero2-content {
+    text-align: center;
     color: white;
     text-align: center;
     font-family: "Open Sans", serif;
 }
 
-.hero2-content h1{
+.hero2-content h1 {
     font-size: 45px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.hero2-content h2{
+.hero2-content h2 {
     font-style: italic;
     margin-bottom: 35px;
 }
 
-.hero2-content a{
+.hero2-content a {
     font-family: "Expletus Sans", serif;
     font-weight: bold;
-    color:black;
+    color: black;
     text-decoration: none;
-    background-color:rgb(255, 255, 255);
-    padding:15px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
     font-size: 20px;
     
 }
 
-.hero2-content a:hover{
+.hero2-content a:hover {
     transition: 1s;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
 }
 #background-container {
     background-image: url("../images/background2.jpg");
@@ -117,17 +116,17 @@ body {
     background-position: center center;
 
 }
-#gallery{
-    display:flex;
-    flex-direction:column;
+#gallery {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-#gallery h2{
+#gallery h2 {
     font-family: "Open Sans", serif;
     font-size: 25px;
     padding: 25px 0px;
-    color:white;
+    color: white;
     text-shadow: 1px 1px 1px black;
     font-weight: 500;
 }
@@ -143,60 +142,60 @@ body {
     column-gap: 5px;
     row-gap: 20px;
     background-color: #111111;
-    padding:25px;
+    padding: 25px;
    
 }
 
 .masonry-gallery img {
-width: 100%;
-padding:25px;
-border: 1px solid white;
+    width: 100%;
+    padding: 25px;
+    border: 1px solid white;
 
 }
 
-.card-container{
-    display:flex;
+.card-container {
+    display: flex;
     justify-content: space-between;
     align-content: center;
-    padding-top:55px;
+    padding-top: 55px;
 }
 
-.card{
+.card {
     flex: 1;
     border: 3px solid #111111;
     padding: 38px;
     text-align: center;
     margin: 38px;
-    background-color:#111111;
+    background-color: #111111;
   
 }
 
-.card h3{
+.card h3 {
     font-size: 30px;
     font-family: "Expletus Sans", serif;
     color: white;
     margin-top: 10px;
 }
 
-.card a{
+.card a {
     color: white;
     font-family: "Open Sans", serif;
     font-size: 18px;
     font-weight: 300;
 }
 
-.card a:hover{
-    color:blanchedalmond;
+.card a:hover {
+    color: blanchedalmond;
 }
 
-footer{
+footer {
     background-color: #111111;
     display: flex;
     justify-content: center;
     color: white;
-    padding:25px;
+    padding: 25px;
 }
 
 footer p {
-    font-size:8px;
+    font-size: 8px;
 }
