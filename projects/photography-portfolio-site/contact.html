@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>photography portfolio site</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
+            rel="stylesheet"
+        >
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About Me</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div id="background-container">
+            <div id="single-column">
+                <div class="form-container">
+                    <h1>Contact Me!</h1>
+                    <p>Have a question? Feel free to send me a message!</p>
+                    <form>
+                        <div>
+                            <label for="services_id">
+                                What can I help you with?
+                            </label>
+                            <select id="services_id" name="service_selection">
+                                <option
+                                    id="default option"
+                                    value="none"
+                                    disabled
+                                    selected
+                                >
+                                    Select what I can help you with?
+                                </option>
+                                <option value="prices">
+                                    Prices
+                                </option>
+                                <option value="photography">
+                                    Photography
+                                </option>
+                                <option value="editing">
+                                    Photo editing
+                                </option>
+                                <option value="bundles">
+                                    Bundles
+                                </option>
+                                <option value="other">
+                                    Other
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="name_id">Name</label>
+                            <input 
+                                type="text" 
+                                id="name_id" 
+                                name="name" 
+                                required 
+                                minlength="2"
+                                placeholder="E.g. John Smith"
+                            >
+                        </div>
+                        <div>
+                            <label for="email_id">Email</label>
+                            <input 
+                                type="email" 
+                                id="email_id" 
+                                name="email"
+                                required
+                                placeholder="E.g. jane.doe@gmail.com"
+                            >
+                        </div>
+                        <div>
+                            <label for="message_id">Message</label>
+                            <textarea 
+                                id="message_id" 
+                                name="message"
+                            placeholder="I would like you to..."></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </main>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>@copyright 2025</p>
+        </footer>
+    </body>
+</html>

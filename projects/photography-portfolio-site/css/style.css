@@ -41,7 +41,30 @@ body {
 
 #hero2-parallax {
     background-image: url("../images/urban-hi-res-1ui7-greyscale.jpg");
-    height: 80vh;
+    height: 40vh;
+    box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center -150px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero3-parallax {
+    background-image: url("../images/urban-hi-res-3q76.jpg");
+    height: 40vh;
+    box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero4-parallax {
+    background-image: url("../images/greyscale2.jpg");
+    height: 40vh;
     box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
     background-size: cover;
     background-position: center center;
@@ -116,6 +139,33 @@ body {
     transition: 1s;
     background-color: blanchedalmond;
 }
+.hero2-content {
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    padding-left: 20px;
+}
+
+.hero3-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    position: absolute;
+    right: 20%;
+   
+}
+
+.hero4-content {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-right: 25px;
+   
+}
+
 #background-container {
     background-image: url("../images/background2.jpg");
     background-size: cover;
@@ -169,6 +219,51 @@ body {
     padding-top: 55px;
 }
 
+#bundles {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 55px;
+}
+
+.bundlescard {
+    flex: 1;
+    border: 3px solid #222222;
+    background-color: #222222;
+    box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+  
+}
+
+.bundlescard ul {
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    padding-right: 45px;
+    margin: 10px;
+}
+
+.bundlescard ul li {
+    font-weight: 300;
+    padding: 10px;
+}
+.bundlescard h2 {
+    font-family: "Expletus Sans", serif;
+    font-size: 35px;
+}
+.bundlescard a {
+    color: white;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.bundlescard a:hover {
+    color: blanchedalmond;
+}
 .card {
     flex: 1;
     border: 3px solid #222222;
@@ -212,4 +307,116 @@ footer {
 
 footer p {
     font-size: 8px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+}
+
+#single-column h1 {
+    margin-top: 100px;
+}
+
+.form-container h1 {
+    font-size: 35px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 25px;
+   
+}
+
+.form-container p {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+form {
+    background-color: #222222;
+    padding: 48px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+    color: white; 
+    box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
+    margin-top: 25px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-bottom: 16px;
+    
+}
+
+textarea {
+    font-family: "Open Sans", serif;
+}
+
+input[type=submit] {
+    width: 250;
+    background-color: black;
+    color: white;
+    border: 0;
+    min-width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: blanchedalmond;
+    color: black;
+    transition: .9s;
+}
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: rgb(218, 53, 53);
+    border: 2px solid red;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: white; 
+    box-shadow: inset 0px 0px 16px 4px rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+
+}
+.information h2 {
+    font-size: 35px;
+    font-family: "Expletus Sans", serif;
+}
+
+.information h5 {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    width: 650px;
+}
+.information p {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    width: 600px;
+}
+
+.information img {
+    width: 50%;
+    margin-top: 48px;
+    border: 2px solid white;   
 }
