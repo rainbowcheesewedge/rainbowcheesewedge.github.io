@@ -512,8 +512,6 @@ input:not(:focus):not(:placeholder-shown):invalid {
     }
     .card:first-child {
        margin-left:5px;
-    
-
     }
 }
 
