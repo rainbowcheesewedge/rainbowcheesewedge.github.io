@@ -420,206 +420,6 @@ input:not(:focus):not(:placeholder-shown):invalid {
     margin-top: 48px;
     border: 2px solid white;   
 }
-
-@media screen and (max-width: 350px) {
-    #navbar a {
-        font-size: 12px;
-        padding: 10px;
-    }
-
-    .form-container {
-      width: 350px;
-      text-align: center;
-    }
-
-    .hero3-content h1 {
-        text-align: center;
-        left: 25%;
-        top: 12%;
-        text-shadow: 2px 2px 2px black;
-    }
-
-    #bundles {
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-    }
-
-    .hero4-content h1{
-        font-size: 35px;
-        text-align: center;
-        padding-left: 25px;
-    }
-
-    .information {
-        width: 350px;
-    }
-
-    .information h2 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-    .information h5 {
-        font-size: 15px;
-        width: 250px;
-    }
-
-    .information p {
-        width: 250px;
-    }
-
-    .hero2-content h1 {
-        font-size: 20px;
-    }
-
-    .hero2-content a {
-        font-size: 12px;
-    }
-
-    .hero2-content h2 {
-        font-size: 18px;
-    }
-    
-    #gallery {
-        width: 350px;
-    }
-
-    .masonry-gallery {
-        display: flex;
-        flex-direction: column;
-    }
-    .masonry-gallery img{
-        width: 100%;
-    }
-    #card-section {
-        width: 350px;
-        margin-left: 0px;
-    }
-
-    .card-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-items: center;
-    }
-    .card{
-        width: 300px;
-        text-align:center;
-        margin-bottom: 25px;
-        margin-left: 0px;
-
-    }
-    .card:first-child {
-       margin-left:5px;
-    }
-}
-
-
-@media screen and (max-width: 550px) {
-    #navbar a {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    .form-container {
-      width: 550px;
-      text-align: center;
-    }
-
-    .hero3-content h1 {
-        text-align: center;
-        left: 25%;
-        top: 12%;
-        text-shadow: 2px 2px 2px black;
-    }
-
-    #bundles {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        width: 650px;
-        margin: 0 auto;
-
-    }
-
-    .bundlescard{
-        width: 350px;
-    }
-
-    .hero4-content h1{
-        font-size: 35px;
-        text-align: center;
-        padding-left: 25px;
-    }
-
-    .information {
-        width: 550px;
-    }
-
-    .information h2 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-    .information h5 {
-        font-size: 15px;
-        width: 350px;
-    }
-
-    .information p {
-        width: 350px;
-    }
-
-    .hero2-content h1 {
-        font-size: 22px;
-    }
-
-    .hero2-content a {
-        font-size: 16px;
-    }
-
-    .hero2-content h2 {
-        font-size: 20px;
-    }
-    
-    #gallery {
-        width: 550px;
-    }
-
-    .masonry-gallery {
-        display: flex;
-        flex-direction: column;
-    }
-    .masonry-gallery img{
-        width: 100%;
-    }
-    #card-section {
-        width: 550px;
-        margin-left: 0px;
-    }
-
-    .card-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-items: center;
-    }
-    .card{
-        width: 300px;
-        text-align:center;
-        margin-bottom: 25px;
-        margin-left: 0px;
-
-    }
-    .card:first-child {
-       margin-left:5px;
-    
-
-    }
-}
-
 @media screen and (max-width: 750px) {
     #navbar a {
         font-size: 16px;
@@ -726,3 +526,201 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
     }
 }
+
+
+@media screen and (max-width: 550px) {
+            #navbar a {
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .form-container {
+            width: 550px;
+            text-align: center;
+            }
+
+            .hero3-content h1 {
+                text-align: center;
+                left: 25%;
+                top: 12%;
+                text-shadow: 2px 2px 2px black;
+            }
+
+            #bundles {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                width: 650px;
+                margin: 0 auto;
+
+            }
+
+            .bundlescard{
+                width: 350px;
+            }
+
+            .hero4-content h1{
+                font-size: 35px;
+                text-align: center;
+                padding-left: 25px;
+            }
+
+            .information {
+                width: 550px;
+            }
+
+            .information h2 {
+                font-size: 25px;
+                margin-top: 20px;
+            }
+            .information h5 {
+                font-size: 15px;
+                width: 350px;
+            }
+
+            .information p {
+                width: 350px;
+            }
+
+            .hero2-content h1 {
+                font-size: 22px;
+            }
+
+            .hero2-content a {
+                font-size: 16px;
+            }
+
+            .hero2-content h2 {
+                font-size: 20px;
+            }
+            
+            #gallery {
+                width: 550px;
+            }
+
+            .masonry-gallery {
+                display: flex;
+                flex-direction: column;
+            }
+            .masonry-gallery img{
+                width: 100%;
+            }
+            #card-section {
+                width: 550px;
+                margin-left: 0px;
+            }
+
+            .card-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-items: center;
+            }
+            .card{
+                width: 300px;
+                text-align:center;
+                margin-bottom: 25px;
+                margin-left: 0px;
+
+            }
+            .card:first-child {
+            margin-left:5px;
+            
+
+            }
+        }
+        @media screen and (max-width: 350px) {
+            #navbar a {
+                font-size: 12px;
+                padding: 10px;
+            }
+        
+            .form-container {
+              width: 350px;
+              text-align: center;
+            }
+        
+            .hero3-content h1 {
+                text-align: center;
+                left: 25%;
+                top: 12%;
+                text-shadow: 2px 2px 2px black;
+            }
+        
+            #bundles {
+                display: flex;
+                flex-direction: column;
+                width: 350px;
+            }
+        
+            .hero4-content h1{
+                font-size: 35px;
+                text-align: center;
+                padding-left: 25px;
+            }
+        
+            .information {
+                width: 350px;
+            }
+        
+            .information h2 {
+                font-size: 25px;
+                margin-top: 20px;
+            }
+            .information h5 {
+                font-size: 15px;
+                width: 250px;
+            }
+        
+            .information p {
+                width: 250px;
+            }
+        
+            .hero2-content h1 {
+                font-size: 20px;
+            }
+        
+            .hero2-content a {
+                font-size: 12px;
+            }
+        
+            .hero2-content h2 {
+                font-size: 18px;
+            }
+            
+            #gallery {
+                width: 350px;
+            }
+        
+            .masonry-gallery {
+                display: flex;
+                flex-direction: column;
+            }
+            .masonry-gallery img{
+                width: 100%;
+            }
+            #card-section {
+                width: 350px;
+                margin-left: 0px;
+            }
+        
+            .card-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-items: center;
+            }
+            .card{
+                width: 300px;
+                text-align:center;
+                margin-bottom: 25px;
+                margin-left: 0px;
+        
+            }
+            .card:first-child {
+               margin-left:5px;
+            }
+        }
