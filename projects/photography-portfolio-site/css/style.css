@@ -448,13 +448,13 @@ input:not(:focus):not(:placeholder-shown):invalid {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        width: 450px;
+        width: 550px;
         margin: 0 auto;
 
     }
 
     .bundlescard{
-        width: 350px;
+        width: 450px;
     }
 
     .hero4-content h1{
