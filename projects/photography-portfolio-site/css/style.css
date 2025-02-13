@@ -249,6 +249,7 @@ body {
 .bundlescard ul li {
     font-weight: 300;
     padding: 10px;
+   
 }
 .bundlescard h2 {
     font-family: "Expletus Sans", serif;
@@ -419,6 +420,10 @@ input:not(:focus):not(:placeholder-shown):invalid {
     width: 50%;
     margin-top: 48px;
     border: 2px solid white;   
+}
+
+.bundlescard ul li span{
+    font-weight: 600;
 }
 @media screen and (max-width: 750px) {
     #navbar a {
@@ -630,7 +635,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
             
 
             }
-        }
+}
         @media screen and (max-width: 350px) {
             #navbar a {
                 font-size: 12px;
@@ -723,4 +728,4 @@ input:not(:focus):not(:placeholder-shown):invalid {
             .card:first-child {
                margin-left:5px;
             }
-        }
+ }
