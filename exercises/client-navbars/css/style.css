@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background-color: rgb(100, 72, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a{
+    padding: 24px;
+    margin-left: 36px;
+    color: rgb(130, 221, 139);
+    font-size: 22px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar a:hover {
+    color: antiquewhite;
+}
+#navbar .logo {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#navbar .logo:hover {
+    color: white;
+}
+
+.column {
+    width: 100%;
+    margin: 0 auto;
+}
