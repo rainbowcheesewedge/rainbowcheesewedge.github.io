@@ -532,7 +532,6 @@ input:not(:focus):not(:placeholder-shown):invalid {
     }
 }
 
-
 @media screen and (max-width: 550px) {
             #navbar a {
                 font-size: 16px;
@@ -636,7 +635,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
             }
 }
-        @media screen and (max-width: 350px) {
+@media screen and (max-width: 350px) {
             #navbar a {
                 font-size: 12px;
                 padding: 10px;
@@ -728,4 +727,4 @@ input:not(:focus):not(:placeholder-shown):invalid {
             .card:first-child {
                margin-left:5px;
             }
- }
+}
