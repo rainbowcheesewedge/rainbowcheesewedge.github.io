@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASellersDesigns</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+            rel="stylesheet"
+        >
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/IMG_5437.png" alt="logo">
+            </a>
+            <div>
+                <a href="work.html">Work</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+            </div>
+            <a href="contact.html" class="navbtn">Contact</a>
+        </div>
+        <div class="background">
+            <div id="single-column">
+                <div id="layout-contact">
+                    <header>
+                        <h1>Contact Me!</h1>
+                        <p>
+                            Got a question? Reach out!
+                        </p>
+                    </header>
+                    <main>
+                        <form 
+                            method="POST" 
+                            action="https://getform.io/f/bqokowvb"
+                        >
+                            <div>
+                                <label for="services_id">
+                                    What can I help you with?
+                                </label>
+                                <select id="services_id" name="service_selection">
+                                    <option 
+                                        id="default_option" 
+                                        value="none" 
+                                        disabled
+                                        selected
+                                    >
+                                        Select what I can help you with
+                                    </option>
+                                    <option value="Work">
+                                        Work
+                                    </option>
+                                    <option value="Prices">
+                                        Prices
+                                    </option>
+                                    <option value="Quotes">
+                                        Quotes
+                                    </option>
+                                    <option value="other">
+                                        Other
+                                    </option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="name_id">Name</label>
+                                <input 
+                                    type="text" 
+                                    id="name_id" 
+                                    name="name" 
+                                    required 
+                                    minlength="2"
+                                    placeholder="E.g. John Smith"
+                                >
+                            </div>
+                            <div>
+                                <label for="email_id">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="email_id" 
+                                    name="email"
+                                    required
+                                    placeholder="E.g. jane.doe@gmail.com"
+                                >
+                            </div>
+                            <div>
+                                <label for="message_id">Message</label>
+                                <textarea 
+                                    id="message_id" 
+                                    name="message"
+                                placeholder="I would like you to..."></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Send">
+                            </div>
+                        </form>
+                    </main>
+                </div>  
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>@copyright 2025 asellersdesigns</p>
+    </footer>
+</html>
