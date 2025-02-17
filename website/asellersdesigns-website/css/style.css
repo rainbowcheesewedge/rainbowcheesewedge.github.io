@@ -282,19 +282,19 @@ footer p {
     #seemore {
         text-align: center;
     }
-.side-by-side{
-    display: flex;
-    flex-direction: column;
-}
-.text-container{
-    width:80%;
-    margin: 0 auto;
-    text-align: center;
-}
+    .side-by-side {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-.image-container {
-    text-align: center;
-}
+    .image-container {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 630px) {
@@ -309,14 +309,14 @@ footer p {
         min-width: 80px;
     }
 
-    #navbar .logo img{
+    #navbar .logo img {
         width: 120px;
         margin-left: 0px;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
 
-    #navbar .logo img{
+    #navbar .logo img {
         width: 50px;
     }
     #navbar a {
@@ -324,7 +324,7 @@ footer p {
       
     }
 
-    #navbar{
+    #navbar {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -344,13 +344,13 @@ footer p {
         top: 25%;
     }
 
-    .hero-content h1{
+    .hero-content h1 {
         font-size: 25px;
     }
 
-    #single-column h2{
+    #single-column h2 {
         font-size: 25px;
-        text-align:left;
+        text-align: left;
         padding-left: 88px;
     }
 
@@ -360,40 +360,105 @@ footer p {
         
     }
 
-    .cards iframe{
+    .cards iframe {
         width: 100%;
     }
 
-    .cards{
+    .cards {
         width: 250px;
     }
 
-    #seemore{
+    #seemore {
         width: 55%;
     }
 
-    .side-by-side{
+    .side-by-side {
         width: 60%;
     }
 
-    #layout-contact{
+    #layout-contact {
         width: 60%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
-    form{
+    form {
         width: 200px;
         margin-left: 0px;
     }
 
-    header{
+    header {
         width: 200px;
         text-align: left;
     }
 }
-@media screen and (max-width: 150px){
-    #navbar .logo img{
+@media screen and (max-width: 250px) {
+    #navbar .logo img {
+        width: 30px;
+       
+    }
+    #navbar a {
+        font-size: 10px;
+        margin-right: 35px;
+      
+    } 
+
+    #navbar .navbtn {
+        font-size: 8px;
+        padding: 5px;
+        min-width: 40px;
+        padding-right: 20px;
+    }
+    #single-column {
+        min-width: 100px;
+        max-width: 200px;
+        margin: 0px auto;
+    }
+    #single-column h1 {
+        font-size: 18px;
+        text-align: center;
+        width: 40%;
+    }
+
+    form {
+        width: 150px;
+        
+    }
+
+    header {
+        width: 200px;
+        text-align: left;
+    }
+    .side-by-side {
+        width: 100%;
+    }
+
+    #single-column h2 {
+        font-size: 18px;
+        text-align: left;
+    }
+    .cards {
+        width: 80%;
+    }
+
+    .cards h4 {
+        font-size: 15px;
+    }
+
+    .cards iframe {
+        width: 100%;
+    }
+
+    #seemore {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 150px) {
+
+    #navbar .logo img {
         width: 30px;
         margin-left: 20px;
     }
@@ -402,9 +467,9 @@ footer p {
       
     }
 
-    #navbar{
+    #navbar {
         display: flex;
-       justify-content: center;
+        justify-content: center;
         align-items: center;
     }
 
@@ -420,13 +485,13 @@ footer p {
         top: 25%;
     }
 
-    .hero-content h1{
+    .hero-content h1 {
         font-size: 25px;
     }
 
-    #single-column h2{
+    #single-column h2 {
         font-size: 16px;
-        text-align:left;
+        text-align: left;
     }
 
     .cardsection {
@@ -435,34 +500,34 @@ footer p {
         
     }
 
-    .cards iframe{
+    .cards iframe {
         width: 100%;
     }
 
-    .cards{
+    .cards {
         width: 250px;
     }
 
-    #seemore{
+    #seemore {
         width: 55%;
     }
 
-    .side-by-side{
+    .side-by-side {
         width: 60%;
     }
 
-    #layout-contact{
+    #layout-contact {
         width: 60%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
-    form{
+    form {
         width: 200px;
         margin-left: 0px;
     }
 
-    header{
+    header {
         width: 200px;
         text-align: left;
     }
