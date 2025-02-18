@@ -357,8 +357,8 @@ footer p {
 
     }
     .hero-content {
-        top: 25%;
-        left: 8%;
+        top: 35%;
+        left: 28%;
     }
     .hero-content h1{
         font-size: 18px;
@@ -388,25 +388,5 @@ footer p {
 
     #layout-contact {
       max-width: 400px;
-    }
-}
-@media screen and (max-width: 200px) {
-    .hero-content {
-        top: 30%;
-        left: 10%;
-    }
-    .cards iframe{
-        width: 150px;
-    }
-
-    form{
-        width: 150px;
-        margin: 0 auto;
-    }
-    .cards {
-        padding: 12px;
-        text-align: center;
-        margin: 12px auto; 
-    
     }
 }
