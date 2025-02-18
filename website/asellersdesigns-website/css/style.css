@@ -107,7 +107,7 @@ body {
 }
 
 .background {
-    background-image: url("../images/grungetexture.jpg");
+    background-image: url("../images/background5.jpg");
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -265,6 +265,10 @@ footer p {
     text-align: center; 
 }
 
+.icon{
+    display:none;
+}
+
 @media screen and (max-width: 768px) {
   
     #navbar a {
@@ -303,6 +307,7 @@ footer p {
     }
 }
 @media screen and (max-width: 630px) {
+  
     #navbar a {
         font-size: 18px;
         text-align: left;
@@ -319,6 +324,7 @@ footer p {
         margin-left: 0px;
     }
 }
+
 @media screen and (max-width: 350px) {
 
     #navbar .logo img {
