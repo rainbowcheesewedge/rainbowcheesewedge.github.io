@@ -390,3 +390,23 @@ footer p {
       max-width: 400px;
     }
 }
+@media screen and (max-width: 200px) {
+    .hero-content {
+        top: 30%;
+        left: 10%;
+    }
+    .cards iframe{
+        width: 150px;
+    }
+
+    form{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .cards {
+        padding: 12px;
+        text-align: center;
+        margin: 12px auto; 
+    
+    }
+}
