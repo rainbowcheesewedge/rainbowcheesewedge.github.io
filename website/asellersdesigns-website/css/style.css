@@ -269,7 +269,7 @@ footer p {
     display:none;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 630px){
+@media screen and (max-width: 1000px){
   
     #navbar a {
         font-size: 18px;
@@ -306,7 +306,7 @@ footer p {
         text-align: center;
     }
 }
-@media screen and (max-width: 630px) and (min-width: 550px){
+@media screen and (max-width: 630px){
   
     #navbar a {
         font-size: 18px;
@@ -324,7 +324,7 @@ footer p {
         margin-left: 0px;
     }
 }
-@media screen and (max-width: 550px) and (min-width: 400px) {
+@media screen and (max-width: 550px) {
     #navbar .logo img {
         width: 50px;
     }
