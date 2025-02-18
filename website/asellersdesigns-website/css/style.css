@@ -220,20 +220,26 @@ input:not(:focus):not(:placeholder-shown):invalid {
     color: white;
     font-size: 18px;
 }
+#main-section {
+    width: 1200px;
+    margin: 0 auto;
+}
 .side-by-side {
     display: flex;
     align-items: center;
     margin: 48px 0px;
     justify-content: center;
     color: #f1f1f1f1;
+    align-content: center;
+
 }
 .image-container {
-    flex: 1;
+    flex: 5;
     text-align: right;
 }
 
 .text-container {
-    flex: 1;
+    flex: 3;
     margin-left: 48px;
     
 }
@@ -296,7 +302,6 @@ footer p {
         text-align: center;
     }
 }
-
 @media screen and (max-width: 630px) {
     #navbar a {
         font-size: 18px;
