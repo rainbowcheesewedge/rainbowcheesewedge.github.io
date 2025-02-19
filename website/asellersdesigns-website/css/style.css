@@ -13,7 +13,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+#mylinks{
+    margin-right: 25px;
+}
 #navbar .logo img {
     width: 150px;
 }
@@ -307,12 +309,8 @@ footer p {
     }
 }
 @media screen and (max-width: 630px){
-  
-    #navbar a {
-        font-size: 18px;
-        text-align: left;
 
-    }
+
     #navbar .navbtn {
         font-size: 18px;
         padding: 10px;
