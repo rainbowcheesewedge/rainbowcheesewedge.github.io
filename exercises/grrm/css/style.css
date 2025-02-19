@@ -113,8 +113,6 @@ body {
     border-style: solid;
     border-image: linear-gradient(to bottom, #666666EE, #66666600 50%) 1;
 }
-
-
 /**************************************************************
     Header Styling
 **************************************************************/
@@ -172,13 +170,13 @@ body {
 
 @keyframes spin {
     0% {
-    transform: scaleX(1);
+        transform: scaleX(1);
     }
     50% {
-    transform: scaleX(-1);
+        transform: scaleX(-1);
     }
     100% {
-    transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -236,7 +234,7 @@ body {
 /**************************************************************
     Banner and Cards Styling
 **************************************************************/
-#banner-container{
+#banner-container {
     margin: 0px 12px;
     padding: 8px;
 
@@ -453,18 +451,22 @@ body {
             "footer  footer  footer"
             "bottom  bottom  bottom";
     }
-    #header h1{
+    #header h1 {
         font-size: 48px;
     }
-
+   
     #nav {
         display: flex;
         flex-wrap: wrap;
-        
     }
 
-    #nav a{
-        flex: 175px;
+    #nav a {
+        flex:175px;
+        border-bottom: 1px solid black;   
+    }
+
+    #nav a:last-child {
+    border-bottom: none;
     }
 }
 
@@ -491,7 +493,7 @@ body {
     }
     #header, 
     #nav {
-        display:flex;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -499,38 +501,51 @@ body {
 
     #nav {
         flex-wrap: wrap;
+
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
     }
     #header h1 {
         font-size: 36px;
         text-align: center;
     }
-
-    #social-section img {
-        width: 30%;
+    #social-section {
+        display: flex;
     }
-   #card-1,
-   #card-2,
-   #card-3,
-   #banner-container {
-    width: 100%;
-   }
+    #social-section img {
+        width: 100%;
+    }
+    #card-1,
+    #card-2,
+    #card-3,
+    #banner-container {
+        width: 100%;
+    }
 
-#nav a{
-    flex: 100px;
-}
-#banner-container,
-#card-1,
-#card-2,
-#card-3,
-#aside,
-#main {
-    background-color: none;
-    padding: 0px;
-    margin: 0px;
+    #nav a {
+        flex: 200px;
+        border-bottom: 1px solid black;   
+    }
 
-}
+    #nav a:last-child {
+    border-bottom: none;
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: none;
+        padding: 0px;
+        margin: 0px;
 
-#blog-button-container {
-    text-align: center;
-}
+    }
+
+    #blog-button-container {
+        text-align: center;
+    }
 }
