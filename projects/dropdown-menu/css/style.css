@@ -238,12 +238,14 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "img1 button1" 
+                        ". ."
                         "button2 img2";
-    gap: 58px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    width: 750px;
+    width: 800px;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .donate-grid a{
@@ -271,7 +273,6 @@ footer{
 #img1{
     grid-area: img1;
 }
-
 #img2 {
     grid-area: img2;
 }
