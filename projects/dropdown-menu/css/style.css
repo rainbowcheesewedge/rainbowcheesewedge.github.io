@@ -71,7 +71,7 @@ body {
     min-width: 200px;
     border-bottom: 2px solid #bec315;
     border-radius: 25px;
-    box-shadow: inset 0px 0px 16px 4px rgb(183, 205, 24);
+    box-shadow: inset 0px 0px 4px 4px rgb(183, 205, 24);
     text-align: center;
 }
 
