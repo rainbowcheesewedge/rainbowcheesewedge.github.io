@@ -170,6 +170,10 @@ body {
     padding: 36px;
 }
 
+.text-container h3{
+    font-size: 35px;
+}
+
 .text-container p{
     margin-bottom: 25px;
     font-family: "Roboto", serif;
@@ -410,6 +414,10 @@ footer{
 
         .donate-grid {
             width: 100%;
+        }
+
+        .text-container h3{
+            font-size: 25px;
         }
     }
     
