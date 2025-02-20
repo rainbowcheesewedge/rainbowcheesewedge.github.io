@@ -83,8 +83,7 @@ body {
 #navbar .dropdown-menu a:hover {
     background: rgb(222, 46, 19);
     color: white;
-    border-radius: 24px;
-    
+    border-radius: 24px;   
 }
 #logo img{
     width: 100px;
@@ -452,4 +451,6 @@ footer{
            top: 0%;
            left: -45%;
     }
+    #navbar .dropdown-menu a:hover {
+        background:#bec315;
 }
