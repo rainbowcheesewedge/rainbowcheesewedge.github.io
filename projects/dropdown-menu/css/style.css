@@ -21,6 +21,8 @@ body {
     padding: 24px;
     text-shadow: 1px 1px 1px black;
     font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: bold;
 }
 
 #navbar a:hover {
@@ -98,12 +100,12 @@ body {
 }
 
 .hero-content h2{
-    font-size: 45px;
+    font-size: 78px;
     font-family: "Chewy", serif;
 }
 
 .hero-content h4{
-    font-size: 25px;
+    font-size: 35px;
     font-family: "Chewy", serif;
 }
 
@@ -159,6 +161,10 @@ body {
     flex: 1;
 }
 
+.image-container img{
+    width: 100%;
+}
+
 .text-container {
     flex: 1;
     padding: 36px;
@@ -180,10 +186,17 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-family: "Roboto", serif;
+    display: inline-block;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 
 .text-container a:hover {
     background: rgb(222, 46, 19);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
 }
 
 #two-columns{
@@ -191,6 +204,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* footer */
 #footer-navbar {
     width: 800px;
@@ -202,9 +216,10 @@ body {
 
 footer{
     background: linear-gradient(to bottom, #d89518, #bec315);
-    height: 50px;
+    height:125px;
     display: flex;
     align-items: center;
+    
 }
 #footer-navbar a{
     color:white;
@@ -217,6 +232,56 @@ footer{
 }
 #footer-navbar span {
     color:white;
+}
+
+.donate-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img1 button1" 
+                        "button2 img2";
+    gap: 58px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 750px;
+}
+
+.donate-grid a{
+    background-color: #bec315;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    display: inline-block;
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+.donate-grid a:hover {
+    background-color: rgb(222, 46, 19);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#img1{
+    grid-area: img1;
+}
+
+#img2 {
+    grid-area: img2;
+}
+
+#button1{
+    grid-area: button1;
+}
+
+#button2{
+    grid-area: button2;
 }
 
 @media screen and (max-width: 800px) {
@@ -249,11 +314,52 @@ footer{
         font-size: 16px;
       
     }
+    footer{
+        height:200px;
+     
+        
+    }
+    .donate-grid{
+        width: 600px;
+    }
     }
 
+  
+    @media screen and (max-width: 700px) {
+        .dropdown-container i{
+            position: absolute;
+            left: 80%;
+        }
+
+        #navbar img{
+        width: 100px;
+
+        }
+        #logo {
+            text-align: center;
+        }
+
+        .donate-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas: "img1" 
+                                "button1" 
+                                "img2" 
+                                "button2";
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .donate-grid a{
+            margin-bottom: 24px;
+        }
+    }
     @media screen and (max-width: 465px) {
         footer{
-            height:220px;
+            height:250px;
         }
 
         #footer-navbar{
@@ -278,5 +384,32 @@ footer{
             justify-content: center;
             padding-left: 36px;
         }
+
+        .hero-content {
+            top: 20%;
+            left: 20%;
+
+        }
+
+        .hero-content h2{
+            font-size: 45px;
+        }
+
+        .hero-content h4{
+            font-size: 25px;
+        }
+
+        #logo {
+            text-align: center;
+        }
+
+        #single-column-layout h2{
+            font-size: 30px;
+        }
+
+        .donate-grid {
+            width: 100%;
+        }
+        
     }
     
