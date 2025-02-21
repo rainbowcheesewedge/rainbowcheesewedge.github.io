@@ -448,4 +448,10 @@ footer {
     #navbar #logo:hover {
         background: none;
     }
+
+    .mobile-container{
+        max-width: 480px;
+        margin:0 auto;
+    }
+    
 }
