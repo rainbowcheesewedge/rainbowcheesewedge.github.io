@@ -18,7 +18,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 24px;
+    padding: 18px;
     text-shadow: 1px 1px 1px black;
     font-size: 20px;
     font-family: "Roboto", serif;
@@ -61,8 +61,6 @@ body {
     visibility: visible;
     z-index: 1;
     border-radius: 58px;
-    top: 130%;
-
 }
 
 .dropdown-menu a {
@@ -257,7 +255,7 @@ footer {
 .donate-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:"img1 button1" 
+    grid-template-areas: "img1 button1" 
         ". ."
         "button2 img2";
     gap: 100px;
@@ -343,24 +341,23 @@ footer {
         width: 600px;
     }
 } 
-@media screen and (max-width: 700px) {
-    .dropdown-container i {
-        position: absolute;
-        left: 80%;
-    }
+@media screen and (max-width: 758px) {
 
     #navbar img {
-        width: 100px;
+        width: 80px;
 
     }
     #logo {
         text-align: center;
     }
+    #navbar a {
+        font-size: 18px;
+    }
 
     .donate-grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas:"img1" 
+        grid-template-areas: "img1" 
             "button1" 
             "img2" 
             "button2";
@@ -375,12 +372,29 @@ footer {
         margin-bottom: 24px;
     }
 }
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 660px) {
+    #navbar #logo {
+        font-size: 24px;    
+    }
+}
+@media screen and (max-width: 599px) {
     .hero-content {
         top: 25%;
         left: 10%;
     }
+
+    #navbar #logo {
+        font-size: 20px;    
+    }
+    #navbar img {
+        width: 80px;
+    }
+
+    #navbar a {
+        font-size: 16px;
+    }
 }
+
 @media screen and (max-width: 465px) {
     footer {
         height: 250px;
@@ -459,7 +473,7 @@ footer {
         background: linear-gradient(to bottom, #d89518, #bec315);
     }
 
-    .dropdown-menu a{
+    .dropdown-menu a {
         background-color: none;
         border-radius: 0px;
         box-shadow: none;
@@ -471,10 +485,10 @@ footer {
     }
 
     .dropdown-container:hover {
-       position: relative;
+        position: relative;
     }
 
-    .dropdown-container a:hover{
+    .dropdown-container a:hover {
         position: relative;
         text-align: center;
 
@@ -482,5 +496,10 @@ footer {
     
     #navbar i {
         display: none;
+    }
+
+    #navbar #logo {
+        text-align: center;
+        margin: 0 auto;
     }
 }
