@@ -491,6 +491,7 @@ footer {
     .dropdown-container a:hover {
         position: relative;
         text-align: center;
+        margin: 0 auto;
 
     }
     
@@ -504,9 +505,13 @@ footer {
     }
     #navbar a {
         text-align: center;
+        margin: 0 auto;
     }
 
     .dropdown-container a {
         text-align: center;
+        margin: 0 auto;
+        width: 500px;
     }
+
 }
