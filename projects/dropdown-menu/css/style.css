@@ -440,7 +440,7 @@ footer {
 
     .dropdown-container:hover .dropdown-menu {
         top: 0%;
-        left: -45%;
+
     }
     #navbar .dropdown-menu a:hover {
         background: #bec315;
@@ -448,10 +448,39 @@ footer {
     #navbar #logo:hover {
         background: none;
     }
+   
+    .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+        background-color: none;
+        border-radius: 0px;
+        box-shadow: none;
+        background: linear-gradient(to bottom, #d89518, #bec315);
+    }
 
-    .mobile-container{
-        max-width: 480px;
-        margin:0 auto;
+    .dropdown-menu a{
+        background-color: none;
+        border-radius: 0px;
+        box-shadow: none;
+        background: linear-gradient(to top, #d89518, #bec315);
+    }
+
+    .dropdown-menu a:hover {
+        border-radius: 0px;
+    }
+
+    .dropdown-container:hover {
+       position: relative;
+    }
+
+    .dropdown-container a:hover{
+        position: relative;
+        text-align: center;
+
     }
     
+    #navbar i {
+        display: none;
+    }
 }
