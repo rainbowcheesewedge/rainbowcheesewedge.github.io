@@ -20,7 +20,7 @@ body {
     padding: 24px;
     border-radius: 24px;
     text-align: center;
-    background-color:burlywood;
+    background-color: burlywood;
 }
 #card1 a,
 #card2 a,
@@ -38,11 +38,11 @@ body {
 #card1 a,
 #card2 a,
 #card3 a,
-#card4 a{
+#card4 a {
     transition:
         background-color 0.5s,
         box-shadow 0.5s,
-        transform 0.5s,
+        transform 0.5s;
 }
 #card1:hover a,
 #card2:hover a,
@@ -56,7 +56,7 @@ body {
 #card1:hover,
 #card2:hover,
 #card3:hover,
-#card4:hover{
+#card4:hover {
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
     transform: rotate(180deg);
@@ -78,7 +78,7 @@ body {
     padding: 24px;
     border-radius: 24px;
     text-align: center;
-    background-color:rgb(62, 61, 59);
+    background-color: rgb(62, 61, 59);
 }
 
 .card-content img {
@@ -89,9 +89,9 @@ body {
 #card6 .card-content,
 #card7 .card-content,
 #card8 .card-content {
-opacity: 0;
-visibility: hidden;
-transform: translateY(-8px); 
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
     transition:
         opacity 0.8s,
         visibility 0.8s,
@@ -100,8 +100,7 @@ transform: translateY(-8px);
 #card5:hover .card-content,
 #card6:hover .card-content,
 #card7:hover .card-content,
-#card8:hover .card-content
- {
+#card8:hover .card-content {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px) rotate(360deg); 
