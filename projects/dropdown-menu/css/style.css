@@ -508,10 +508,9 @@ footer {
         margin: 0 auto;
     }
 
-    .dropdown-container a {
+    .dropdown-container {
         text-align: center;
         margin: 0 auto;
-        width: 500px;
     }
 
 }
