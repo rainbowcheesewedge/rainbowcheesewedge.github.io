@@ -204,6 +204,7 @@ body {
 
 .fa-brands {
     font-size: 19px;
+    margin-left: 20px;
 }
 @media screen and (max-width: 1190px) {
     #navbar #logo img {
