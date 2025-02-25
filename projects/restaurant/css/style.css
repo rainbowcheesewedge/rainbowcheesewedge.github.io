@@ -316,7 +316,7 @@ body {
 
     .hero-content h2 {
         font-size: 80px;
-        top: 45%;
+        top: 25%;
         left: 12%;
     }
     
@@ -329,21 +329,24 @@ body {
         margin: 0px auto;
         width: 600px;
     }
+    #heroimage {
+        height: 60vh;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .hero-content h2 {
         font-size: 40px;
-        top: 65%;
-        left: 20%;
+        top:45%;
+        left: 25%;
     }
     
     .hero-content h4 {
         font-size: 20px;
-        left: 15%;
+        left: 22%;
     }
 
-     .single-column {
+    .single-column {
         margin: 0px auto;
         width: 400px;
     }
@@ -360,7 +363,7 @@ body {
 @media screen and (max-width: 450px) {
     .hero-content h2 {
         font-size: 40px;
-        top: 65%;
+        top: 44%;
         left: 10%;
     }
         
@@ -375,18 +378,17 @@ body {
         font-size: 40px;
         top: 15%;
         left: 15%;
-     }
+    }
     
-     .hero-content h4 {
+    .hero-content h4 {
         font-size: 20px;
         left: 15%;
-
-     }
-     #footer-navbar {
+    }
+    #footer-navbar {
         width: 250px;
     }
 
-    #heroimage{
+    #heroimage {
         height: 40vh;
     }
 
@@ -395,7 +397,7 @@ body {
         width: 275px;
     }
 
-    .image-container img{
+    .image-container img {
         width: 100%;
     }
 
