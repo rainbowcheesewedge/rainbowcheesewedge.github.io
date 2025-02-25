@@ -200,6 +200,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 15px;
+    align-items: center;
 }
 
 .fa-brands {
