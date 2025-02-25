@@ -408,3 +408,32 @@ body {
         width: 150px;
     }
 }
+
+@media screen and (max-width: 240px) {
+    .hero-content h2 {
+        font-size: 33px;
+        top: 15%;
+        left: 12%;
+    }
+    
+    .hero-content h4 {
+        font-size: 20px;
+        left: 15%;
+    }
+    #navbar #logo img{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .hero-content h2 {
+        font-size: 33px;
+        top: 10%;
+        left: 12%;
+    }
+    
+    .hero-content h4 {
+        font-size: 20px;
+        left: 15%;
+    }
+}
