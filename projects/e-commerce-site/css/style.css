@@ -575,5 +575,18 @@ font-style: italic;
             font-weight: bold;
             font-style: italic;
         }
+
+        #navbar-top a {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #navbar-bottom a{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 0px;
+        }
+
     }
  
