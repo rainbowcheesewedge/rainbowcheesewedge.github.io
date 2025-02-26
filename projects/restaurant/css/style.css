@@ -527,6 +527,10 @@ body {
         font-size: 15px;
         width: 150px;
     }
+    .image-container-dining img {
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -540,6 +544,11 @@ body {
         font-size: 20px;
         left: 15%;
         bottom: 10%;
+    }
+    .image-container-dining img {
+        width: 250px;
+        height: auto;
+     
     }
 }
 
@@ -556,6 +565,10 @@ body {
     }
     #navbar #logo img{
         width: 120px;
+    }
+    .image-container-dining img {
+        width: 150px;
+     
     }
 }
 
