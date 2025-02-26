@@ -411,6 +411,20 @@ input[type=text], select, textarea {
         padding: 10px;
         font-size: 12px;
     }
+    
+    input[type=text], select, textarea {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+     display: flex;
+    }
+
+    form {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 888px) {
@@ -514,6 +528,26 @@ input[type=text], select, textarea {
         width: 300px;
       
     }
+    input[type=text], select, textarea {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+     display: flex;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+    input[type=submit] {
+       padding: 12px 20px;
+        margin-bottom: 55px;
+        text-align: left;
+        display: flex;
+      }
+      
 }
 @media screen and (max-width: 450px) {
     .hero-content h2 {
@@ -569,6 +603,26 @@ input[type=text], select, textarea {
         width: 300px;
         height: auto;
     }
+
+    input[type=text], select, textarea {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+     display: flex;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+    input[type=submit] {
+       padding: 12px 20px;
+        margin-bottom: 55px;
+        text-align: left;
+        display: flex;
+      }
 }
 
 @media screen and (max-width: 375px){
@@ -617,6 +671,25 @@ input[type=text], select, textarea {
         height: auto;
      
     }
+    input[type=text], select, textarea {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+     display: flex;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+    input[type=submit] {
+       padding: 12px 20px;
+        margin-bottom: 55px;
+        text-align: left;
+        display: flex;
+      }
 }
 
 @media screen and (max-width: 200px) {
