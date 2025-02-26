@@ -92,7 +92,7 @@ body {
 
 .single-column {
     margin: 0px auto;
-    width: 800px;
+    width: 1200px;
     text-align: center;
 }
 
@@ -172,6 +172,7 @@ body {
     margin: 36px;
     color: white;
     text-shadow: 1px 1px 1px black;
+    width:350px;
 }
 
 .card h3 {
@@ -203,6 +204,12 @@ body {
     justify-content: space-between;
     font-size: 15px;
     align-items: center;
+}
+
+#footer img {
+    width: 50px;
+    margin-bottom: 24px;
+    margin-top: 24px;
 }
 
 .fa-brands {
