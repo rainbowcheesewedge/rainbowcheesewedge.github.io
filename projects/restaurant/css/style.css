@@ -93,6 +93,7 @@ body {
 .single-column {
     margin: 0px auto;
     width: 800px;
+    text-align: center;
 }
 
 .side-by-side {
@@ -103,6 +104,7 @@ body {
 .image-container {
     flex: 1;
     margin-bottom: 55px;
+    margin-right: 25px;
 }
 
 .text-container {
@@ -212,6 +214,7 @@ body {
     font-family: "Holtwood One SC", serif;
     text-align: center;
     font-size: 35px;
+    margin-top: 100px;
 }
 
 .text-container span {
@@ -230,18 +233,29 @@ body {
     text-align: center;
     font-size: 35px;
 }
+
+#card-section-menu p {
+    text-align: center;
+    font-size: 20px;
+}
 .card-container-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.card-container-menu img, 
+.image-container img {
+    border-radius: 24px;
 }
 .card-menu {
     flex: 1;
     padding: 36px;
     text-align: center;
     margin: 46px;
-    color: #6d4314;
+    color: black;
     line-height: 25px;
+    border: 2px solid #6d4314;
+    border-radius: 24px;
 }
 
 .card-menu h4{
@@ -258,6 +272,58 @@ body {
 .card-menu p {
     font-size: 20px;
 }
+
+/*dining page */
+
+.single-column p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.single-column a {
+    background-color: #BCD86F;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+    display: inline-block;
+}
+
+.single-column a:hover {
+    background: transparent;
+    border: 2px solid #BCD86F;
+    color: black;
+    transition: 0.5s;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.side-by-side-dining {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 48px 0px;
+    gap: 24px;
+}
+
+.image-container-dining {
+    flex: 1;
+}
+
+.image-container-dining img {
+    width: 350px;
+    border-radius: 24px;
+    height: 250px;
+}
+
 
 
 @media screen and (max-width: 1190px) {
