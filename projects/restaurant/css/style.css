@@ -271,6 +271,11 @@ body {
 .image-container img {
     border-radius: 24px;
 }
+.card-menu img {
+    height: 200px;
+    object-fit: fill;
+    width: 200px;
+}
 .card-menu {
     flex: 1;
     padding: 36px;
@@ -405,6 +410,33 @@ input[type=submit]:hover {
     .card p {
         font-size: 16px;
     }
+    .card-menu img {
+        height: 300px;
+        object-fit: fill;
+        width: 300px;
+    }
+    .card-menu {
+        flex: 1;
+        padding: 36px;
+        text-align: center;
+        margin: 46px;
+        color: black;
+        line-height: 25px;
+        border: 2px solid #6d4314;
+        border-radius: 24px;
+        background-color: #BCD86F;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .card-menu img {
+        height: 200px;
+        object-fit: fill;
+        width: 200px;
+    }
+   .single-column {
+    width: 1000px;
+   }
 }
 
 @media screen and (max-width: 970px) {
