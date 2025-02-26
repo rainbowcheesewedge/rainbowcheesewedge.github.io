@@ -355,11 +355,6 @@ input[type=text], select, textarea {
     background-color: #35200a;
   }
 
-  .container {
-   padding: 20px;
-   width: 800px;
-  }
-
 @media screen and (max-width: 1190px) {
     #navbar #logo img {
         width: 150px;
@@ -413,17 +408,13 @@ input[type=text], select, textarea {
     }
     
     input[type=text], select, textarea {
-        width: 500px;
+        width: 400px;
         display: flex;
         flex-direction: column;
     }
 
     form label {
      display: flex;
-    }
-
-    form {
-        margin: 0 auto;
     }
 }
 
@@ -538,9 +529,6 @@ input[type=text], select, textarea {
      display: flex;
     }
 
-    form {
-        margin: 0 auto;
-    }
     input[type=submit] {
        padding: 12px 20px;
         margin-bottom: 55px;
@@ -610,13 +598,6 @@ input[type=text], select, textarea {
         flex-direction: column;
     }
 
-    form label {
-     display: flex;
-    }
-
-    form {
-        margin: 0 auto;
-    }
     input[type=submit] {
        padding: 12px 20px;
         margin-bottom: 55px;
@@ -642,6 +623,22 @@ input[type=text], select, textarea {
         height: auto;
      
     }
+    input[type=text], select, textarea {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+     display: flex;
+    }
+
+    input[type=submit] {
+       padding: 12px 20px;
+        margin-bottom: 55px;
+        text-align: left;
+        display: flex;
+      }
 }
 @media screen and (max-width: 270px) {
     .image-container-dining img {
