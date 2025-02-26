@@ -324,7 +324,40 @@ body {
     height: 250px;
 }
 
+/*form page */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6d4314;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
 
+  }
+ 
+
+  input[type=submit] {
+    background-color: #6d4314;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Holtwood One SC", serif;
+    margin-bottom: 55px;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #35200a;
+  }
+
+  .container {
+   padding: 20px;
+   width: 800px;
+  }
 
 @media screen and (max-width: 1190px) {
     #navbar #logo img {
