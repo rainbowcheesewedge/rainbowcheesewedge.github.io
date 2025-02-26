@@ -388,7 +388,10 @@ input[type=submit]:hover {
     background-color: #35200a;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1193px) {
+    .single-column {
+        width: 1000px;
+       }
     #navbar #logo img {
         width: 150px;
     }
