@@ -726,12 +726,39 @@ input[type=submit]:hover {
         text-align: left;
         display: flex;
     }
+    #darkgreencontainer {
+        margin-top: 0px;
+    }
+
+    .text-containerr p {
+        margin-bottom: 0px;
+    }
 }
 @media screen and (max-width: 270px) {
     .image-container-dining img {
         width: 200px;
         height: auto;
      
+    }
+    .image-container img {
+        width: 80%;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .side-by-side {
+        width: 250px;
+        text-align: left;
+    }
+    .side-by-side h3 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .single-column {
+        width: 200px;
     }
 }
 @media screen and (max-width: 240px) {
@@ -789,5 +816,9 @@ input[type=submit]:hover {
     .image-container-dining img {
         width: 150px;
         height: auto;
+    }
+
+    .single-column h2 {
+        font-size: 12px;
     }
 }
