@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-family: "Montserrat", serif;
+}
+
+.background-container {
+    background-color: rgb(231, 222, 161);
+    display: flex;
+}
+
+.center-column {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    background-color: white;
+    padding: 48px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.border-one {
+    border: 8px solid red;
+}
+
+.border-two {
+    border: 4px solid red;
+    margin: 55px;
+}
+
+.border-two h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.border-two h1 {
+    font-size: 46px;
+    font-family: "Graduate", serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.border-two h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.side-by-side img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+}
+
+.side-one img {
+    width: 80%;
+}
+.side-two img {
+    width: 80%;
+}
+
+.side-by-side p {
+    font-size: 18px;
+    font-family: "Montserrat", serif;
+}
+
+.side-middle {
+    padding: 30px 30px;
+}
+
+.side-middle h3{
+    font-size: 35px;
+    font-family: "Graduate", serif;
+}
+#information h2 {
+    font-family: "Graduate", serif;
+    font-size: 35px;
+    margin: 30px;
+}
+#information h6{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+#information p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+#buttons a {
+    border: 2px solid orangered;
+    color:white;
+    background-color: orangered;
+    border-radius: 24px;
+    padding: 16px 24px;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-weight: 800;
+    text-decoration: none;
+}
+#buttons a:hover {
+    border: 2px solid orangered;
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (max-width: 650px) {
+    .center-column {
+        width: 450px;
+        padding: 0px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .border-two h3 {
+        font-size: 25px;
+    }
+    .border-two h1 {
+        font-size: 35px;
+  
+    }
+    .border-two h2 {
+        font-size: 18px; 
+    }
+
+    .side-by-side img {
+        width: 100px;
+        height: 120px;
+        object-fit: fill;
+    }
+    
+    .side-one img {
+        width: 100%;
+    }
+    .side-two img {
+        width: 100%;
+    }
+
+    #information h2 {
+        font-size: 25px;
+        margin-top: 0px; 
+    }
+    #information {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .center-column {
+        width: 350px;
+        padding: 0px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .border-two {
+        border: none;
+    }
+}
+    @media screen and (max-width: 375px) {
+        .center-column {
+            width: 250px;
+        }
+        .side-by-side {
+            display:flex;
+            flex-direction: column;
+        }
+        .side-by-side img {
+            width: 50px;
+            height: 100px;
+            object-fit: fill;
+        }
+        
+        .side-one img {
+            width: 100%;
+        }
+        .side-two img {
+            width: 100%;
+        }
+        .side-middle h3{
+            font-size: 35px;
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+
+        #information h2 {
+            text-align: center;
+            margin: 0px;
+            margin-bottom: 20px;
+        }
+
+        #buttons a {
+            display: block;
+        }
+
+        .border-two p {
+            font-size: 14px;
+            margin-top: 25px;
+            margin-bottom: 0px;
+        }
+}
