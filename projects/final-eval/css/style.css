@@ -22,6 +22,7 @@ body {
     margin-bottom: 120px;
     margin-top: 120px;
     background-color: orangered;
+    border: 10px solid rgb(0, 0, 0);
 }
 
 .border-one {
@@ -165,6 +166,7 @@ body {
         padding: 0px;
         margin-bottom: 25px;
         margin-top: 25px;
+        border: 3px solid rgb(0, 0, 0);
     }
     .border-one {
         background-color: white;
