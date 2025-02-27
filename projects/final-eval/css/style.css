@@ -9,7 +9,7 @@ body {
 }
 
 .background-container {
-    background-color: rgb(231, 222, 161);
+    background: linear-gradient(to bottom, rgb(223, 223, 158), #9d9f55);
     display: flex;
 }
 
