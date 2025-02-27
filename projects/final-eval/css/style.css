@@ -117,7 +117,7 @@ body {
 #buttons a:hover {
     border: 2px solid orangered;
     background-color: transparent;
-    color: black;
+    color: orangered;
 }
 
 @media screen and (max-width: 650px) {
