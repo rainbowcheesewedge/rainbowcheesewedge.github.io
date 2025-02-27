@@ -99,7 +99,7 @@ body {
 
 .side-by-side {
     align-items: center;
-    margin: 48px 0px;
+    margin: 88px 0px;
     display: flex;
 }
 .image-container {
@@ -173,7 +173,18 @@ body {
     margin: 36px;
     color: white;
     text-shadow: 1px 1px 1px black;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
+
+.card:hover{
+    background-color: #35200a;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
 
 .card h3 {
     font-family: "Holtwood One SC", serif;
