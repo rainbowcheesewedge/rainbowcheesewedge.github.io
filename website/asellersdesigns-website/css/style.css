@@ -271,6 +271,15 @@ footer p {
     display: none;
 }
 
+.web-work {
+    display: flex;
+    flex-direction: column;
+}
+
+.web-work a {
+    margin-top: 24px;
+}
+
 @media screen and (max-width: 1000px){
   
     #navbar a {
