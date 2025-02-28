@@ -300,13 +300,12 @@ body {
     margin-top: 0px;
     flex-wrap: wrap;
 }
-
-.card-container-menu h3{
-   border-bottom: 2px solid #35200a;
-   margin:25px;
-   padding:25px;
-   font-size: 25px;
-   font-family: "Holtwood One SC", serif;
+.card-container-menu h3 {
+    border-bottom: 2px solid #35200a;
+    margin: 25px;
+    padding: 25px;
+    font-size: 25px;
+    font-family: "Holtwood One SC", serif;
 }
 .card-menu {
     flex: 1;
