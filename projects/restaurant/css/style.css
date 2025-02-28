@@ -702,9 +702,14 @@ input[type=submit]:hover {
     .image-container img {
         width: 100%;
     }
-
-    #card-container-menu {
-        width: 400px;
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-container-menu {
+        display: flex;
+        width: 350px;
         justify-content: center;
         align-items: center;
     }
