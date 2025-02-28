@@ -284,6 +284,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 }
 .card-container-menu img, 
 .image-container img {
@@ -294,16 +295,29 @@ body {
     object-fit: fill;
     width: 200px;
 }
+.flex-row {
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+
+.card-container-menu h2{
+   border-bottom: 2px solid #35200a;
+   margin:25px;
+   padding:25px;
+}
 .card-menu {
     flex: 1;
     padding: 36px;
     text-align: center;
-    margin: 46px;
+    margin: 24px;
     color: black;
     line-height: 25px;
     border: 2px solid #6d4314;
     border-radius: 24px;
     background-color: #BCD86F;
+    width: 275px;
+    flex-direction: row;
 }
 
 .card-menu h4 {
@@ -689,6 +703,12 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    #card-container-menu {
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .text-container a {
         padding: 10px 20px;
         font-size: 15px;
@@ -698,7 +718,10 @@ input[type=submit]:hover {
         width: 300px;
         height: auto;
     }
-
+    .flex-row {
+        justify-content: center;
+        align-items: center;
+    }
     input[type=text], 
     select, 
     textarea {
