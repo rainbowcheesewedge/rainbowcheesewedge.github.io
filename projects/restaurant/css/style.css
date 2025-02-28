@@ -188,13 +188,11 @@ body {
         transform 0.5s;
 }
 
-.card:hover{
+.card:hover {
     background-color: #35200a;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
-
-
 .card h3 {
     font-family: "Holtwood One SC", serif;
     font-size: 20px;
@@ -209,7 +207,7 @@ body {
     padding: 12px;
     font-family: "Holtwood One SC", serif;
 }
-#footer img{
+#footer img {
     width: 50px;
     margin: 15px;
 }
@@ -388,7 +386,7 @@ textarea {
     margin-bottom: 16px; 
     resize: vertical;
 }
-form{
+form {
     margin: 0 auto;
     width: 600px;
 }
@@ -396,7 +394,7 @@ form label {
     display: flex;
 }
 input[type=submit] {
-    background-color: #5a8c14;;
+    background-color: #5a8c14;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -416,7 +414,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 1193px) {
     .single-column {
         width: 1000px;
-       }
+    }
     #navbar #logo img {
         width: 150px;
     }
@@ -462,9 +460,9 @@ input[type=submit]:hover {
         object-fit: fill;
         width: 200px;
     }
-   .single-column {
-    width: 1000px;
-   }
+    .single-column {
+        width: 1000px;
+    }
 }
 
 @media screen and (max-width: 970px) {
@@ -475,7 +473,7 @@ input[type=submit]:hover {
 
     .single-column {
         width: 800px;
-       }
+    }
 
     .hero-content h2 {
         font-size: 125px;
@@ -587,7 +585,7 @@ input[type=submit]:hover {
         height: 60vh;
     }
 
-    form{
+    form {
         margin: 0 auto;
         width: 300px;
     }
