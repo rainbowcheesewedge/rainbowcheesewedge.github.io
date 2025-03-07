@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BEBEBE;
+}
+#navbar a {
+    margin-left: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "New Rocker";
+}
+
+#navbar a:hover {
+    color: #DB0F0F;
+    text-decoration: underline;
+}
+#navbar #logo img {
+    width: 150px;
+}
+.background-image {
+    background-image: url("../images/background5.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+#single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#single-column h2 {
+    font-size: 65px;
+    font-family: "Nunito", sans-serif;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.cardsection {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    background-color:black;
+    border-radius: 24px;
+    color: white;
+}
+
+.cards h4 {
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 0px;
+}
+
+.web-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-work a {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+}
