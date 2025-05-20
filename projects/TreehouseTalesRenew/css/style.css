@@ -427,6 +427,10 @@ margin-bottom: 16px;
     text-align: center;
  
 }
+
+.card-menu span {
+    font-weight: bold;
+}
 .card-menu img{
     width:250px;
 
