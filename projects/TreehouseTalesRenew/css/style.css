@@ -432,7 +432,9 @@ margin-bottom: 16px;
     font-weight: bold;
 }
 .card-menu img{
-    width:250px;
+    
+    object-fit: fill;
+    width: 300px;
 
 }
 .card-menu h3{
