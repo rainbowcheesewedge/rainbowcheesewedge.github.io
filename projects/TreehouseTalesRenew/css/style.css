@@ -236,4 +236,213 @@ footer {
     font-family: "Luckiest Guy", cursive;
 }
 
+/*about page */
 
+#heroimage-three {
+    background-image: url("../images/moretrees.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.single-column-two{
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.main-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    width: 800px;
+}
+
+.side-by-side-two .image-container-two{
+    flex: 1;
+}
+.side-by-side-two .text-container-two {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-container-two img {
+    width: 80%;
+    padding-top:35px;
+}
+
+.text-container-two h3 {
+    font-size: 35px;
+    font-family: "Luckiest Guy", cursive;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+/* contact page */
+#heroimage-four {
+    background-image: url("../images/alotoftrees.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+#headers h3{
+    padding-top:55px;
+    font-size:25px;
+    font-family: "Luckiest Guy", cursive;
+}
+#headers p{
+    font-size:20px;
+}
+main {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+}
+
+form div label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+text-align:center;
+}
+
+input,
+select,
+textarea {
+padding: 12px;
+width: 100%;
+box-sizing: border-box;
+border: 1px solid #CCCCCC;
+margin-bottom: 16px;
+}
+.sbtn {
+    background-color:#53060C;
+    color:white;
+    font-weight: bold;
+    border-radius: 45px;
+    font-size: 20px;
+}
+
+/* RESERVATION PAGE */
+
+#heroimage-five {
+    background-image: url("../images/treehousecircle.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.sbtn:hover{
+    background-color:#93AB78;
+    color:white;
+    font-weight: bold;
+    transition: 0.5s;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+/*MENU PAGE */
+#heroimage-six {
+    background-image: url("../images/diningtable.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.colored-section {
+        background-color: #93AB78;
+        padding: 55px 0px;
+    }
+
+.section-text {
+    margin: 0 auto;
+    text-align: center;
+}
+.section-text h2 {
+    font-size:45px;
+    font-family: "Luckiest Guy", cursive;
+    color:white;
+}
+.section-text p{
+    font-size: 20px;
+    color:white;
+}
+#card-section-menu {
+    padding-top:35px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menutext h2{
+    font-size:45px;
+    font-family: "Luckiest Guy", cursive;
+}
+
+.card-container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+ 
+}
+.card-menu img{
+    width:250px;
+
+}
+.card-menu h3{
+    font-size:25px;
+    font-family: "Luckiest Guy", cursive;
+}
+.card-menu p {
+    font-size: 20px; 
+}
+
+#card-section-menu h2{
+    font-size:35px;
+    font-family: "Luckiest Guy", cursive;
+    border-bottom: 10px solid #D2D1D6;
+    text-align: center;
+    
+}
