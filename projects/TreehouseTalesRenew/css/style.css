@@ -75,7 +75,6 @@ body {
     color: white;
     font-family: "Luckiest Guy", cursive;
     text-shadow: 2px 2px 2px black;
-    width:850px;
 }
 
 .single-column {
@@ -432,9 +431,10 @@ margin-bottom: 16px;
     font-weight: bold;
 }
 .card-menu img{
-    
-    object-fit: fill;
+    height: 300px;
+    object-fit: cover;
     width: 300px;
+    
 
 }
 .card-menu h3{
@@ -451,4 +451,451 @@ margin-bottom: 16px;
     border-bottom: 10px solid #D2D1D6;
     text-align: center;
     
+}
+
+/*responseness*/
+@media screen and (max-width: 1200px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #navbar a {
+        font-size:20px;
+    }
+
+    .single-column {
+        width: 650px;
+    }
+    .hero-content h2{
+         font-size: 80px;
+    }
+}
+@media screen and (max-width: 1008px) {
+    #navbar a {
+        font-size:18px;
+        padding: 15px;
+    }
+    .card {
+        width:250px;
+    }
+
+    .single-column-two{
+        min-width: 200px;
+        max-width: 500px;
+        margin: 0px auto;
+    }
+    .main-section {
+        display: flex;
+        margin: 0 auto;
+        padding: 50px;
+        width: 500px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    
+    .side-by-side .image-container {
+        flex: 1;
+    }
+    .side-by-side .text-container {
+        flex: 1;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container img {
+        width: 100%;
+    }
+    
+    .text-container h3 {
+        font-size: 35px;
+        font-family: "Luckiest Guy", cursive;
+    }
+}
+
+@media screen and (max-width: 881x) {
+    #navbar {
+        flex-wrap: wrap;
+    }
+    #navbar .cta-button {
+        background-color: #53060C;
+        color: white;
+        border-radius: 36px;
+        padding: 14px 15px;
+        font-size: 14px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: center;
+        margin-right: 20px;
+        font-family: "Luckiest Guy", cursive;
+    }
+
+    #navbar #logo img{
+        width: 130px;
+    }
+    #navbar a {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    main {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        width: 600px;
+        margin: 0 auto;
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content: center;
+        align-items:center;
+    }
+    .footerinfo {
+        width:600px;
+    }
+    #footerlogo img {
+        width: 80px;
+    }
+
+    #copyright {
+
+        width:80%;
+        font-size: 14px;
+    }
+    #copyright img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hero-content h2{
+        font-size: 35px;
+        bottom: 6%;
+        left:7%;
+   }
+   #navbar .cta-button {
+    background-color: #53060C;
+    color: white;
+    border-radius: 36px;
+    padding: 14px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 20px;
+    font-family: "Luckiest Guy", cursive;
+}
+.single-column {
+    width: 500px;
+}
+#navbar #logo img{
+    width: 100px;
+}
+.card {
+    width:250px;
+}
+
+.single-column-two{
+    min-width: 200px;
+    max-width: 300px;
+    margin: 0px auto;
+}
+.main-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    width: 300px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+}
+
+.text-container h3 {
+    font-size: 35px;
+    font-family: "Luckiest Guy", cursive;
+}
+}
+
+@media screen and (max-width: 550px) {
+
+    main {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        width: 300px;
+        margin: 0 auto;
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content: center;
+        align-items:center;
+    }
+    .footerinfo {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #copyright img{
+        margin: 0px;
+        padding: 0px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar a {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .card-container-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-menu img{
+        height: 300px;
+        object-fit: cover;
+        width: 300px;
+    } 
+    .menutext {
+        text-align: center;
+    }   
+    #card-section-menu {
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #navbar {
+        display: flex; 
+        flex-direction: column;
+        height: 475px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #navbar #logo img {
+    width: 150px;
+  }
+    #navbar a{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.single-column {
+    width: 300px;
+}
+
+#navbar .cta-button {
+    margin-bottom: 25px;
+}
+#textinfo h2{
+    font-size: 45px;
+}
+
+#textinfo h3 {
+    font-size: 35px;
+}
+.card {
+    width:250px;
+}
+
+.single-column-two{
+    min-width: 200px;
+    max-width: 300px;
+    margin: 0px auto;
+}
+.main-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    width: 300px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+}
+
+.text-container h3 {
+    font-size: 35px;
+    font-family: "Luckiest Guy", cursive;
+}
+   
+}
+
+@media screen and (max-width: 400px) {
+    .menutext {
+        text-align: center;
+    }
+    .single-column {
+        width: 250px;
+    }
+    .footerinfo {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #copyright img{
+       width: 50px;
+       height: 50px;
+    }
+
+    #copyright {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #copyright a {
+        margin: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+#footerlogo img{
+    width: 150px;
+}
+.card {
+    width:250px;
+}
+
+.single-column-two{
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0px auto;
+}
+.main-section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    width: 250px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+}
+
+.text-container h3 {
+    font-size: 35px;
+    font-family: "Luckiest Guy", cursive;
+}
+.card-menu img{
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
+}
+
+@media screen and (max-width: 350px){
+    .card {
+        width:250px;
+    }
+
+    .single-column-two{
+        min-width: 200px;
+        max-width: 300px;
+        margin: 0px auto;
+    }
+    .main-section {
+        display: flex;
+        margin: 0 auto;
+        padding: 50px;
+        width: 300px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    
+    .side-by-side .image-container {
+        flex: 1;
+    }
+    .side-by-side .text-container {
+        flex: 1;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container img {
+        width: 100%;
+    }
+    
+    .text-container h3 {
+        font-size: 35px;
+        font-family: "Luckiest Guy", cursive;
+    }
+
+    .card-menu img{
+        height: 200px;
+        object-fit: cover;
+        width: 200px;
+    }
+        
 }

@@ -865,7 +865,7 @@ input[type=submit]:hover {
         display: flex;
     }
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 350px) {
     .hero-content h2 {
         font-size: 33px;
         top: 10%;
@@ -883,5 +883,27 @@ input[type=submit]:hover {
 
     .single-column h2 {
         font-size: 12px;
+    }
+
+    .side-by-side {
+        display: flex; 
+        flex-direction: column;
+        flex: wrap;
+    }
+    .image-container img{
+        width:50%;
+    }
+
+    .main-section {
+        display: flex; 
+        flex-direction: column;
+        flex: wrap;
+    }
+
+    .single-column-two {
+        width: 250px;
+        display: flex; 
+        flex-direction: column;
+        flex: wrap;
     }
 }
